@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dadrog"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#FF9800"
+        >
+
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <ImageView
+
+                android:id="@+id/shoplink"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_margin="4dp"
+                android:layout_weight="0.6"
+                android:src="@drawable/back"
+                android:backgroundTint="@color/light_blue_600"
+                android:padding="2dp"
+                android:text="CLICK HERE"
+                android:textColor="#ffffff" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="বিড়ালের দাদরোগ"
+                android:textColor="#332B2B"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#ffffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/gosol"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cleancat"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+কিভাবে বিড়ালের দাদ/রিংওয়ার্ম রোগ এর লক্ষণ নির্ণয়, চিকিৎসা ও প্রতিকার করবেন!\n\n
+দাদ একেবারে কোনও কীটের দ্বারা সৃষ্ট নয় — তবে ছত্রাক যা ত্বক, লোম এবং নখকে সংক্রামিত করতে পারে। ডার্মাটোফাইটিসিস নামেও দাদ পরিচিত, যেহেতু দাদ ছোঁয়াচে তাই দাদ দ্রুত বাসার অন্যান্য পোষা প্রাণীতে এবং মানুষের মধ্যেও ছড়িয়ে পড়ে।\n\n
+//দাদ কোথায় বেশি হয়//\n\n
+>মাথার ত্বকে বা লোমের নিচে দেখা যায়।\n\n
+>পিঠ, পেট, গায়ে দাদ হয়।\n\n
+>নখে এবং পাতায় দাদ হয়।\n\n
+//দাদ বা রিংওয়ার্ম এর লক্ষণ//\n\n
+দাদ হলে প্রথমে বিড়ালের আক্রান্ত স্থানে ছোট লাল গোটা হয় এবং সামান্য চুলকায়। পরে আক্রান্ত স্থানে বাদামী বর্ণের আইশ হয় এবং স্থানটি বৃত্তাকারে বড় হতে থাকে। এটি দেখতে অনেকটা চাকার মতো যার কিনারাগুলো সামান্য উঁচু হয়।\n\n
+ক্ষত স্থান থেকে খুশকির মত চামড়া ওঠে। কখনো কখনো পানি ভর্তি দানা ও পুঁজ ভর্তি দানা হয়। মাথায় দাদ হলে আক্রান্ত স্থানের লোম পড়ে যায়।\n\n
+//দাদের চিকিৎসা//\n\n
+বিড়ালের দাদ হয়েছে বুঝতে পারলে যত দ্রুত সম্ভব ভেট এর সাথে যোগাযোগ করুন। এক্ষেত্রে সাধারণত অ্যান্টি-ফাঙ্গাল ক্রিম/শ্যাম্পু ব্যবহার করতে উপদেশ দিয়ে থাকেন পশু চিকিৎসকগণ।\n\n
+//দাদ বা রিংওয়ার্ম প্রতিরোধে করণীয়//\n\n
+বিড়ালের দাদ এর স্থান শুকনো রাখার চেষ্টা করুন।\n\n
+>উষ্ণ গরম পানি ও ভালো অ্যান্টিসেপ্টিক সাবান/শ্যাম্পু দিয়ে ভালোভাবে ধুয়ে, শুকিয়ে ভেটে এর দেওয়া ওষুধ ব্যবহার করুন।\n\n
+> অ্যান্টিসেপ্টিক সাবান/ শ্যাম্পু দিয়ে বাসার সমস্ত বিড়ালকে গোসল দিতে দিন।\n\n
+>সংক্রামিত বিড়ালদের বিছানাপত্র এবং খেলনাগুলি জীবাণুনাশক দিয়ে ধুয়ে ফেলুন যা দাদের বীজগুলিকে মেরে ফেলে।\n\n
+> আক্রান্ত বিড়ালকে আলাদা রাখুন।\n\n
+> বিড়ালের গায়ে মলম বা গোসল করারনোর পর হাত ধুয়ে ফেলুন।\n\n
+
+"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Korajabena"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#FF9800"
+        >
+
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <ImageView
+
+                android:id="@+id/shoplink"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_margin="4dp"
+                android:layout_weight="0.6"
+                android:src="@drawable/back"
+                android:backgroundTint="@color/light_blue_600"
+                android:padding="2dp"
+                android:text="CLICK HERE"
+                android:textColor="#ffffff" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="একটি মা বিড়াল এবং বাচ্চাদের যত্ন"
+                android:textColor="#332B2B"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#ffffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/gosol"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cleancat"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+একটি মা বিড়াল এবং বাচ্চাদের যত্ন\n\n
+একটি বিড়াল যখন ছোট ছোট সুন্দর বাচ্চা দেয়, তখন তারা চায় একটু নিরাপদস্থান, নিয়মিত খাবার এবং একটু ভালোবাসা। হোক সে Stray cat অথবা ঘরে পালা বিড়াল, বাচ্চাদের সুস্থভাবে বেড়ে তোলার জন্য তখন তার চাই একটু বাড়তি যত্ন। সৌভাগ্যবশত, মা বিড়ালের খুব একটা মানুষের সাহায্যের প্রয়োজন হয় না। তবে আপনার উচিৎ অবশ্যই তার পাশে থেকে তাকে একটু যত্ন করা।\n\n
+
+মানুষের কোলাহল থেকে দূরে, ঘরের একপাশে একটি নিরাপদ জায়গায় মা ও বাচ্চাদের জন্য বিছানা করে দিতে হবে। একটি বাক্সে, ঝুড়িতে অথবা বড় আকারের খাঁচার ভিতর কিছু নরম কাপড় বিছিয়ে দিতে হবে। এসময় তারা মানুষের উপস্থিতি পছন্দ করে না এবং নিরাপত্তাহীনতায় ভোগে।স্থান পছন্দ না হলে মা বিড়াল বাচ্চাদের মুখে করে নিয়ে অন্য স্থানে চলে যায়। শীতকাল হলে ঘরের ভিতরে উষ্ণ কোনস্থানে রাখতে হবে।এ সময় বাড়িতে অন্য বিড়াল থাকলে তাদেরকে আলাদা রুমে রাখা উচিৎ।\n\n
+
+care-of-mom-cat-2এ সময় মা বিড়ালটি খুব সহজেই যাতায়াত করতে পারে এবং তার কাছাকাছি এমন কোন স্থানে খাবার, পানি ও লিটারবক্স দিতে হবে। ২-৩ দিনের মধ্যে তার খাবারের পরিমান ৪গুন বেড়ে যায়। এসময় তাকে পর্যাপ্ত পরিমানে Cat Wet Food, Cat Dry Food, মাছ, মাংস এবং পর্যাপ্ত পরিমানে পানি খাওয়াতে হবে। পুষ্টিকর এবং পরিমানে বেশি খাবার খাওয়ালে বাচ্চারা স্বাস্থ্যবান এবং সুস্থ হয়। তাই মা বিড়াল অনেক ব্যস্ত থাকে তাই তার খুব কাছাকাছি খাবার দিতে হবে।\n\n\n
+
+খেয়াল রাখতে হবে-\n\n
+বাচ্চারা প্রথম ৩-৪ সপ্তাহ শুধু মায়ের দুধ এ খাবে এবং প্রচুর ঘুমায়। এ সময় মা বিড়াল প্রতি ১-৩ ঘণ্টা পর পর বাচ্চাদের পরিচর্যা করে । বাচ্চারা তখন pee ও poop খুব কম করে। তবুও ১-২দিন পর পর তাদের বিছানা পরিষ্কার করে দিতে হবে। ৪সপ্তাহ বয়সে তারা নিজে নিজে শক্ত খাবার খাওয়া শুরু করে, তখন তারা নিজেরাই লিটার বক্স এ গিয়ে লিটার ব্যবহার করতে পারে।\n\n
+• বাচ্চা হওয়ার পরে ১-২সপ্তাহের মধ্যে বিড়াল mating করলে আবার pregnant হতে পারে। তাই ছেলে বিড়ালের কাছ থেকে তাকে দূরে রাখতে হবে।\n\n
+• বাচ্চা বিড়ালের গায়ে Tick , Flea থাকলে খুব দ্রুত রক্তশূন্য হয়ে পড়ে, তাই মা বিড়ালকে এবং বাচ্চাদের Tick , Flea মুক্ত রাখতে হবে।\n\n
+• সব বাচ্চারা একরকমভাবে বড় হচ্ছে কিনা খেয়াল রাখতে হবে। অনেক বিড়াল অপুষ্টিতে ভোগে ফলে সমানভাবে বড় হয় না, তাদেরকে অবশ্যই Vet এর কাছে যেতে নিয়ে হবে।\n\n
+
+
+"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

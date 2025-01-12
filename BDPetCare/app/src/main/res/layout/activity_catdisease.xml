@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Catdisease"
+    android:orientation="vertical"
+    android:background="#EFEBDF">
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <ImageView
+            android:id="@+id/shoplink"
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:layout_weight="0.6"
+            android:src="@drawable/back"
+            android:backgroundTint="@color/light_blue_600"
+            android:padding="2dp"
+            android:text="CLICK HERE"
+            android:textColor="#ffffff" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="CAT DISEASE"
+            android:textColor="#332B2B"
+            android:textSize="27dp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+
+
+        >
+
+        <androidx.cardview.widget.CardView
+            android:backgroundTint="#ffffff"
+            android:id="@+id/catflu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="15dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="10dp"
+            >
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ক্যাট ফ্লু"
+                android:gravity="center"
+                />
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/thanda"
+            android:backgroundTint="#ffffff"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="15dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="10dp"
+            >
+            <TextView
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" পোষা বিড়ালের ঠান্ডা"
+                android:gravity="center"
+                />
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/kanerrog"
+            android:backgroundTint="#ffffff"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="15dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="10dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="বিড়ালের কানের মাইট (Ear Mites):"
+                android:textColor="#100F0F"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ukon"
+            android:backgroundTint="#ffffff"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="15dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="10dp"
+            >
+            <TextView
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="বিড়ালের TICK এবং FLEA(উকুন)"
+                android:gravity="center"
+                />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/viralrog"
+            android:backgroundTint="#ffffff"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="15dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="10dp"
+            >
+            <TextView
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="বিড়ালের ভাইরাল রোগ ফ্যালাইন প্যাললিউকোপেনিয়া"
+                android:gravity="center"
+                />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/paracitamol"
+            android:backgroundTint="#ffffff"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="15dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="10dp"
+            >
+            <TextView
+                android:textStyle="bold"
+
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="প্যারাসিটামল টক্সিসিটি এবং হলে কি করা উচিত"
+                android:gravity="center"
+                />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dadrog"
+            android:backgroundTint="#ffffff"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="15dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="10dp"
+            >
+            <TextView
+                android:textStyle="bold"
+
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="বিড়ালের দাদরোগ এর লক্ষণ নির্ণয়"
+                android:gravity="center"
+                />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+</LinearLayout>

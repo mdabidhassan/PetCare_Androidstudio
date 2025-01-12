@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kanerrog"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#FF9800"
+        >
+
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <ImageView
+
+                android:id="@+id/shoplink"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_margin="4dp"
+                android:layout_weight="0.6"
+                android:src="@drawable/back"
+                android:backgroundTint="@color/light_blue_600"
+                android:padding="2dp"
+                android:text="CLICK HERE"
+                android:textColor="#ffffff" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="বিড়ালের কানের মাইট (Ear Mites)"
+                android:textColor="#332B2B"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#ffffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/gosol"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cleancat"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+বিড়ালের কানের মাইট (Ear Mites):\n\n
+√ এটি একটি সাধারণ বাহ্যিক পরজীবী\n\n
+√ কানের মাইট দিয়ে আক্রান্ত বিড়ালগুলি সাধারণত কানের দিকে অতিরিক্ত মাত্রায় স্ক্র্যাচ করে এবং মাথা ঝাকি দেয়\n\n
+√ এমনকি নিজের শরীর নিজে চুলকায় এবং চুলকানির সাথে সাথে রক্ত আঁসতে পারে। \n\n
+√ কিছু বিড়াল তাদের মাথা এতটা নাড়া দেবে যে কানের ভেতরে হেমাটোমা তৈরি হবে (রক্তনালী ভেঙে যাওয়ার কারণে কানের মধ্যে রক্ত জমাট বাধা)।\n\n
+√ উদ্বেগের বিষয় হ’ল যখন বিড়ালরা তাদের কানে স্ক্র্যাচ করে তখন কানের ড্রামগুলিতে আঘাত ও ক্ষত হওয়ার সম্ভাবনা থাকে\n\n
+√ যেকোনও বয়সের বিড়ালই এয়ার মাইটস এ আক্রান্ত হতে পারে।\n\n
+√ এটি অত্যন্ত সংক্রামক একটি ব্যাধি যা বাবা-মায়ের কাছ থেকে নবজাতকের কাছেও যেতে পারে।\n\n
+
+লক্ষণসমূহ:\n\n
+√ কান, মাথা এবং ঘাড়ে চুলকানি\n\n
+√ কখনও কখনও পুরো শরীরে সাধারণ চুলকানি\n\n
+√ কানে এবং মাথার চারপাশে অতিরিক্ত স্ক্র্যাচিং\n\n
+√ ঘন ঘন মাথা নারানো\n\n
+√ কানে ঘন লাল-বাদামী বা কালো crusts\n\n
+√ কানের পিছনে দিকে ঘর্ষণ ও আঁচড়ানো\n\n
+√ ঘাড় এবং লেজের উপর crusting এবং স্কেল\n\n
+
+
+
+রোগ নির্ণয়:\n\n
+√ আপনার প্রাণিচিকিৎস্যককে আপনার বিড়াল এর স্বাস্থ্য ও রোগের লক্ষণগুলো সমন্ধে সম্পূর্ণভাবে অবহিত করুন।\n\n
+√ আপনার প্রাণিচিকিত্সক আপনার বিড়ালের রোগ নিশ্চিত করার জন্য স্ট্যান্ডার্ড ল্যাব টেস্ট, যেমন রক্তেরপ্রোফাইল, ইউরিনালাইসিস এবং একটি ইলেক্ট্রোলাইট প্যানেল সহ আপনার বিড়ালের উপরে একটি সম্পূর্ণ শারীরিক পরীক্ষা করবে।\n\n
+√ পরীক্ষাগার বিশ্লেষণের জন্য নেওয়া ত্বকের স্ক্র্যাপিং সহ একটি ডার্মাটোলজিক পরীক্ষা করা হবে।\n\n
+√ মাইটগুলি সনাক্ত করতে আপনার বিড়ালের চিকিৎসক একটি অটোস্কোপ ব্যবহার করতে পারেন, যেখানে কানের মাইটগুলি সরাসরি কানের মধ্যে দৃশ্যমানভাবে দেখা যাবে।\n\n
+
+
+
+
+
+চিকিৎসা:\n\n
+√ যেহেতু এই সংক্রমণটি খুব সংক্রামক, একই পরিবারের সমস্ত প্রাণীকে একই সাথে চিকিৎসা করা উচিত এবং আশেপাশের পরিবেশ খুব ভালভাবে পরিষ্কার করা উচিত।\n\n
+√ মাইটগুলি প্রাণীর শরীর থেকে বেশি দূরে টিকে থাকে না,\n
+তাই ঘর পরিষ্কার করার জন্য যথেষ্ট পরিমাণে সচেতন হওয়া দরকার ।\n\n
+√ আপনার বিড়ালের কান পুরোপুরি পরিষ্কার করার দিকে বিশেষ নজর দিতে হবে।\n\n
+√ বাণিজ্যিকভাবে ইয়ার ক্লিনার পাওয়া যায়, যা বিড়ালদের জন্য কান হালকাভাবে পরিষ্কার করতে ব্যবহার করা যেতে পারে।\n\n
+√ পরজীবী নাশক ওষুধ নির্দিষ্ট পরিমান ডোজ এ, অবশ্যই অভিজ্ঞ প্রাণি চিকিৎসকের পরামর্শ অনুযায়ী ব্যবহার করা উচিত ।\n\n
+√ যেহেতু বিড়াল তাদের লেজ মাথার কাছে কুঁকড়ে নিয়ে ঘুমায়, তাই লেজটিও ভালভাবে পরিষ্কার করতে ভুলবেন না।\n\n
+√ বিড়ালকে ঘরের বাহিরে যাওয়া থেকে বিরত রাখতে হবে ।\n\n
+
+
+
+বিলাইয়ের Ear Mite\n\n
+Otodectes cynotis দিয়ে সবথেকে বেশি হয়ে থাকে, কন্টাজিয়াস বিধায় এক বিলাই থেকে আরেক বিলাই, এবং মায়ের মাধ্যমে বাচ্চারাও আক্রান্ত হতে পারে। তো আমার কি ? না ভাই-বোনেরা একটু সাবধানে আমাদেরও হ্যান্ডেল করতে হবে।\n\n
+এটি জোনোটিক এক্টোপ্যারাসাইট সুতরাং মানুষও আক্রান্ত হতে পারে।\n\n
+ক্লিনিক্যাল সাইনঃ ওটিটিস এক্সটার্না তার প্রধান আবাস্থল। আপনি দেখবেন ইয়ার ক্যানেল এবং আশেপাশের জায়গা জুরে বাদামি-কালো ডেব্রিশ, বিলাই কান চুলকায় খুব, মাথা ঝাকায়, ইনফেস্টেশন বেশি মাত্রায় হলে শরীরের ভাজে ভাজে ,খাজে খাজেও তাদের কলনি দেখা যাবে। ট্রিট্মেন্ট ছাড়া অনেক দিন এ অবস্থায় থাকলে ফাংগাল ইনফেশটেশনও হতে পারে।\n\n
+চিকিৎসা করা দরকার?\n\n
+ইনফেস্টেশন এরিয়া টা সুন্দর করে সময় নিয়ে ক্লিন করা লাগবে ভাই। পভিসেপ/ভায়োডিন অথবা নরমাল স্যালাইন দিয়েও ইনফেক্টেড এরিয়াটা আগে একটু ভিজিয়ে নরম করে তারপর কটন বাড দিয়ে ক্লিন করতে পারেন( যদি ল্যাটাফ্যাটা অবস্থা দেখেন)\n\n\n
+১) টপিক্যালিঃ আইভারমেক্টিনের চেয়ে ভালো অপশন আর হয় না। আমি নিজে এ ছাড়া আর কিছু তাই ট্রাই ও করি নাই।\n\n
+২) সিস্টেমিক্যালিঃ এবারেও আইভারমেকটিন(১%) । Orally 0.2mg/kg (সিঙ্গেল ডোজ q7d ,4 treatment. Subcutaneously(S/C) তেও সেইম ডোজ তবে q14d আর 2 or 3 treatment লাগবে।\n\n
+Reminder: Ear Mite এর লাইফ সাইকেল ২১ দিনের. তাই আপনাকে ডোজ কমপ্লিট করতেই হবে। নইলে ইনফেস্টেশন আবারো দেখা দিতে পারে। বিলাইয়ের মালিক বলবে ডাক্তার বালা না।\n\n
+
+"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UKUN"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#FF9800"
+        >
+
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <ImageView
+
+                android:id="@+id/shoplink"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_margin="4dp"
+                android:layout_weight="0.6"
+                android:src="@drawable/back"
+                android:backgroundTint="@color/light_blue_600"
+                android:padding="2dp"
+                android:text="CLICK HERE"
+                android:textColor="#ffffff" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="বিড়ালের TICK এবং FLEA(উকুন)"
+                android:textColor="#332B2B"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#ffffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/gosol"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cleancat"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+বিড়ালের TICK এবং FLEA কেন হয়  এবং প্রতিকারঃ\n\n
+Flea\n\n
+Flea এক ধরনের ছোট পোকা। সাধারনত কুকুর ও বিড়াল উভয়েরই গায়ে দেখা যায় যা চামড়ার অসুখের অন্যতম কারন। এর কারনে বিড়ালের শরীর খুব চুলকায় ও জ্বালাপোড়া করে আবার অ্যালার্জির কারন হয়েও দাঁড়ায়। এরা বিড়ালের দেহে tapeworm বহন করে যা পরবর্তীতে রক্তশূন্যতার কারন হয়ে দাঁড়ায়। Flea গাড় বাদামী রঙের ছোট পোকার মত দেখতে, ১-২ মিলিমিটার লম্বা হয়ে থাকে। একটি মেয়ে Flea দিনে অসংখ্য ডিম পারে এবং খুব দ্রুত বংশবৃদ্ধি করে। এরা বিড়ালের রক্ত খেয়ে জীবনধারন করে। অনেকসময় বিড়ালের শরীরে এই পোকার উপস্থিতি বোঝা যায় না কারন এরা খুব দ্রুতগতির হয় এবং খুব ভালো লাফাতে পারে। কিন্তু একটু খেয়াল করলে বিড়ালের গায়ে দেখা যাবে কালো রঙের ছোট কনা যেগুলোকে flea dirt বলে এবং তা দেখেই Flea এর উপস্থিতি বোঝা যায়।\n\n
+Tick\n\n
+Flea এর মত Tick ও বিড়ালের গায়ে বসবাস করে এমন এক ধরনের পরজীবী। এরা বিড়ালের রক্ত খেয়ে বেঁচে থাকে। অভুক্ত একটি Tick খুব ছোট থাকে কিন্তু রক্ত খেয়ে তারা একটি মটরশুঁটির দানার মতও বড় আকারের ধারন করে। এদের আটটি পা থাকে এবং লাল, বাদামি ও কালো রঙের হয়। এরাও অসুখ বহন করে এবং বিড়ালের চর্মরোগ সৃষ্টি করে। বিড়াল ও কুকুরের গায়ে বিভিন্ন ধরনের Tick হয় যেমন- sheep tick, hedgehog tick এবং dog tick । বেশিরভাগ ক্ষেত্রে এরা বেশি লোম আছে এমন জায়গায় অর্থাৎ মাথা, ঘাড় ও লেজের গোঁড়ার কাছে থাকে।\n\n
+
+
+
+
+Flea অথবা Tick হলে করণীয়ঃ\n\n
+বাচ্চা বিড়ালের ক্ষেত্রে-\n\n
+বিড়ালের মায়ের গায়ে Flea থাকলে বাচ্চাদের গায়েও হয়। আর এটা ওদের জন্য ক্ষতিকর। কিন্তু ২-২.৫ মাস বয়সের আগে বিড়ালের গায়ে কোন ধরনের Powder, Shampoo ইত্যাদি কেমিক্যালযুক্ত পণ্য ব্যাবহার করা একেবারেই উচিৎ নয়। সাধারনভাবে হাত দিয়ে Flea ধরে ধরে ফেলে দিতে হবে। এরা খুব দ্রুতগতির হয় তাই এদের সহজে ধরা যায় না। হাতে Vaseline Jelly অথবা petroleum jelly মাখিয়ে নিলে এদের ধরতে সুবিধা হয় এবং ধরার পর পালিয়ে যাতে না যায় সে জন্য তাড়াতাড়ি মেরে ফেলতে হবে। Dishwashing Powder যুক্ত পানিতে ফেললে এরা তাড়াতাড়ি মারা যায়।আবার বাচ্চাকে কুসুম গরম পানি দিয়ে গোসল করিয়ে ভালভাবে মুছে Flea চিরুনি দিয়ে আঁচড়ে দিলে Flea কমে।\n\n
+
+বড় বিড়ালের ক্ষেত্রে-\n\n\n\n
+Flea অথবা Tick এর জন্য কিছু পণ্য কিনতে পাওয়া যায় । যা ব্যাবহারে Flea এবং Tick এর হাত থেকে রক্ষা পাওয়া যায়। যেমন-\n\n
+১। Powder- Flea এবং Tick দূর করার জন্য বাজারে বিভিন্ন company এর Flea Powder কিনতে পাওয়া যায়। এটি একটি বহুল ব্যবহৃত পদ্ধতি । কিন্তু একটু সাবধানে Powder ব্যাবহার করতে হয় যেন বিড়ালের নাকে মুখে না ঢুকে যায়। সারা শরীরে ব্যাবহার করতে হয় এবং সারা শরীরে ঘাড়, গলা, পেট ও লেজের গোঁড়ায় একটু বেশি দিতে হয়। কতদিন ও কি পরিমান ব্যাবহার করতে হবে তা পণ্যর গায়ে লেখা থাকে।\n\n
+২। Spray– পোকা দুর করার জন্য Flea Spray কিনতে পাওয়া যায় এবং বড় বিড়ালের গায়ে ব্যাবহার করা হয়। বিভিন্ন প্রাণী চিকিৎসকের কাছ থেকে Spray করার ব্যবস্থা থাকে।\n\n
+৩। Shampoo – কুকুর বিড়ালের জন্য আলাদা Shampoo পাওয়া যায়। তবে তা পোকা দূর করার Shampoo কিনা তা দেখে কিনতে হবে। ২-৩ দিন এই শ্যাম্পু দিয়ে গোসল করালে Flea এবং Tick দূর হয় ।\n\n
+৪। Flea collar – Flea collar কিনতে পাওয়া যায় তবে এটা চুলকানি এবং চামড়ার রোগ সৃষ্টি করে বিধায় ব্যাবহার না করাই ভালো।\n\n
+৫। Natural Remedy – প্রকৃতিক উপায়ে সাময়িকভাবে Flea এবং Tick দূর করা যায়, তবে নির্মূল হয় না। নিচে দুইটি উপায় দেওয়া হলঃ\n\n
+1. Apple Cider Vinegar (ACV) : ১মিলি ACV ও ২মিলি কুসুম গরম পানি এবং একচিমটি লবন মিশিয়ে বোতলে ভরে কুকুর অথবা বিড়ালের গায়ে স্প্রে করতে হবে। ভালভাবে ঘষে মুছে দিতে হবে।\n\n
+2. Neem Oil(for dog) : ½ আউন্স নিমপাতার তেলের সাথে, ¼ আউন্স লিকুইড সাবান অথবা লিকুইড ডিশওয়াশার এবং ২মিলি পানি মিলিয়ে কুকুরের গায়ে স্প্রে করতে হবে। মিশ্রণটি বানানোর ৮ঘণ্টার মধ্যে ব্যাবহার করতে হবে। তেলজাতীয় দ্রব্য বিড়ালের গায়ে ব্যাবহার করা যাবে না।\n\n
+3. Liquid Dish Washer , Lemon: লিকুইড সাবান/ লিকুইড ডিশওয়াশার অথবা লেবু Flea এবং Tick দূর করে। গোসলের সময় এগুলো ব্যাবহারে Flea এবং Tick কমে যায়।\n\n
+
+
+
+
+যা যা মনে রাখা প্রয়োজন –\n\n
+১) Flea যদি বেশি হয় তাহলে প্রাণী চিকিৎসকের কাছে নিয়ে যেতে হবে।\n\n
+২) বিড়ালের গায়ে কখনই কুকুরের Flea treatment ব্যাবহার করা যাবে না। কুকুরের Flea treatment বিড়ালের জন্য বিষাক্ত।\n\n
+৩) অসুস্থ, ব্যথা পাওয়া অথবা পা ভাঙ্গা বিড়ালকে Flea treatment দেওয়া যাবে না।\n\n
+৪) সপ্তাহে অন্তত একদিন বিছানা ধুতে হবে কারন Flea এর ডিম বিছানাতে পাওয়া যায়।\n\n
+৫) বিড়ালকে নিয়মিত Grooming করতে হবে।\n\n
+৬) বিড়ালের গায়ে তেলজাতীয় কোন কিছু ব্যাবহার করা যাবে না।\n\n
+৭) বাড়িতে একের অধিক বিড়াল থাকলে সবাইকে একসাথে Flea treatment দিতে হবে।\n\n\n
+
+
+"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

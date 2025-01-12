@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "898036551137",
+    "project_id": "petabid-7706c",
+    "storage_bucket": "petabid-7706c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898036551137:android:f0994719b57db73a5756a0",
+        "android_client_info": {
+          "package_name": "com.example.bdpetcare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEy9Uw-j9xkERHDxoc_EaOd0upb9g7WRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

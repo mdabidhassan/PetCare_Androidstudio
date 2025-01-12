@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Paracitamol"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#FF9800"
+        >
+
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <ImageView
+
+                android:id="@+id/shoplink"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_margin="4dp"
+                android:layout_weight="0.6"
+                android:src="@drawable/back"
+                android:backgroundTint="@color/light_blue_600"
+                android:padding="2dp"
+                android:text="CLICK HERE"
+                android:textColor="#ffffff" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Paracetamol_Toxicity"
+                android:textColor="#332B2B"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#ffffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/gosol"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cleancat"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+#Paracetamol_Toxicity (মুলত Acetaminophen Toxicity বলা হয়)\n
+*CAT: যেকোনো ডোজই ওদের জন্য বিষ।\n\n\n
+*DOG: Pain killer হিসাবে ব্যবহারের কথা লিখা আছে 10mg/kg body weight. তবে FDA approved না। 30-35mg/kg b.wt অতিক্রম করলে সেটাতে টক্সিসিটি হওয়ার কথা বলা আছে।\n\n
+#Mechanism:\n
+> P450 pathway Acetaminophen কে কনভার্ট করে reactive metabolite NAPQ1 (N-acetyl-para-benzoquinoneimine) তে উপনীত করে যার ফলে Cell injury হয়ে থাকে।\n\n
+> Hemoglobin এর ফেরাস স্টেট, ফেরিকে কনভার্ট করে অবশেষে methemoglobinemia হয়ে থাকে।\n\n
+> Metabolites বেশি পরিমাণে Liver এ থাকার কারণে Acute Hepatotoxicity হতে পারে।\n\n
+#Clinical_Sign:\n
+• Mucous membrane Pale/Brown/cyanotic হয়ে যাওয়া।\n\n
+• Facial  Paw swelling.\n\n
+• Urine color brown.\n\n
+• Methemoglobinemia এর কারণে Dyspnea হয়ে থাকে যেহেতু oxygen bind করতে পারেনা Hemoglobin এর সাথে।\n\n
+#Treatment:\n
+1) যদি ২-৩ ঘন্টার মধ্যে ড্রাগ ইনজেশন করে থাকে তবে Emesis (বমি) করাতে হবে। এটার জন্য Xylazine 0.5mg/kg body weight i/m ব্যবহার করতে হবে। যদি Xylazine না থাকে তবে Hydrogen Peroxide 6% সমপরিমাণ পানির সাথে মিশিয়ে মুখের একপাশে খাওয়ানো যায়। কাঁচা ডিম খাওয়ালেও নাকি Emesis হয় যদিও এটাতে আমি শিউর না।\n\n
+2) Activated Charcoal ব্যবহার করতে হবে যদি Paracetamol খাওয়ার ২ ঘন্টার মধ্যে হয়ে থাকে। এর কাজ মূলত NAPQ1 এর সাথে bind করে ব্লাড সার্কুলেশনে বাধা দান করে যার ফলে Methemoglobinemia এর মাত্রা কম হবে।তবে সতর্কতার সাথে খাওয়াতে হবে নয়তো Aspiration Pneumonia হতে পারে।\n\n
+3) যদি ৫-৭ ঘন্টা বা তার বেশি হয়ে থাকে তবে Acetylcysteine ব্যবহার করতে হবে। এটা মুলত Paracetamol poisoning এর Antidote.\n
+(Tab. Mucomist DT 600mg)\n\n
+প্রথম ডোজ, 140mg/kg b.wt করে 5-10ml 5% Dextrose saline এর সাথে মিশিয়ে খাওয়াতে হবে।
+২য় – ৭ম ডোজ, 70mg/kg b.wt করে 5-10ml 5% Dextrose saline এর সাথে মিশিয়ে খাওয়াতে হবে।
+(৬ ঘন্টা পরপর।তবে কয়েকটা বইয়ে ৩-৪ ঘন্টা পরপর দেওয়ার কথা বলা হয়েছে।)\n\n
+4) Ascorbic Acid (Vitamin-C) 30mg/kg b.wt অনুসারে ৮ ঘন্টা পরপর খাওয়াতে হবে। শিরাতে দিলে বেশি কার্যকর হয়। মোট ৬টা ডোজ।\n
+এটা Antioxidant হিসেবে কাজ করে Methemoglobin reduce করে পুনরায় Hemoglobin এ রূপান্তরিত করতে সাহায্য করে।\n
+5) Rehydration এর জন্য Crystalloid fluid (Normal Saline 0.9%) ব্যবহার করতে হবে। ডোজ 20-40ml / kg/ Day হিসেব করে। স্যালাইন দেওয়ার ফলে ব্লাডে টক্সিসিটির concentration কমে যাবে।\n\n
+6) Methemoglobin, oxygen এর সাথে bind করেনা তাই শ্বাসকষ্ট হয়। তাই শ্বাসকষ্ট দেখা দিলে oxygenation করা উচিত।\n\n
+
+>বেশি সময় হয়ে গেলে ড্রাগ দিয়েও ভালো রেসপন্স পাওয়া যায় না।\n
+> Immature cat এ P450 pathway inactive থাকার কারণে টক্সিসিটির প্রতি রেসিস্ট্যান্ট তবে আমি ক্লিনিক্যাল কেইস ছোট বাচ্চাতেও পেয়েছি যেটা বাঁচেনি।\n\n
+> আজকে মেডিসিন খেলে ২দিন পর্যন্ত বেঁচে থাকলেও ৩তম দিনে মারা যাওয়ার ঘটনা কয়েকটা দেখেছি।\n\n
+>মেডিসিন খুব তাড়াতাড়ি অর্থাৎ ২ ঘন্টার মধ্যে absorp হয়ে যায়।\n\n
+> যদি severe toxicity হয় এবং anemic condition হয়ে যায় তবে Blood transfusion এর কথা বলা আছে যদিও এটা বাংলাদেশে এখনো সম্ভব না।\n\n
+
+"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

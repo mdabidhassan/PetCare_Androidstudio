@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vaccine"
+    android:orientation="vertical"
+
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#FF9800"
+        >
+
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <ImageView
+
+                android:id="@+id/shoplink"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_margin="4dp"
+                android:layout_weight="0.6"
+                android:src="@drawable/back"
+                android:backgroundTint="@color/light_blue_600"
+                android:padding="2dp"
+                android:text="CLICK HERE"
+                android:textColor="#ffffff" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="বিড়ালের ভ্যাকসিন "
+                android:textColor="#332B2B"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#ffffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/gosol"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cleancat"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+বিড়ালের ভ্যাকসিন কেন দিতে হয়? \n\n
+বিড়ালের ভ্যাকসিনের দাম? বিড়ালের কিছু মারাত্নক রোগ আছে যা হলে বিড়াল মারা যায় এমনকি তখন কোন ওষুধ আর কাজ করেনা। তাই রোগ হওয়ার আগে বিড়ালকে ভ্যাকসিন দিতে হয় (মনে রাখবেন বিড়ালকে অসুস্থ অবস্থায় ভ্যাকসিন দিলে তা আর কাজ করবে না) এর মধ্যে কিছু রোগ আছে যেমন র্যাবিস মানুষের মধ্যেও সংক্রামিত হতে পারে। তাই পোষা বিড়াল ও মানুষ দুই জনের  সুরক্ষার জন্য ভ্যাকসিন দরকার। \n\n\n
+অনেক ধরনের ভ্যাকসিন রয়েছে, বর্তমানে আমাদের দেশে ৩ টি ভ্যাকসিন বেশি দেওয়া হয়ে থাকে। \n\n\n
+1.	a) NOBIVAC® Feline 1-HCPCh \n\n
+2.	b) RABISIN® \n\n
+3.	c) QUADRICAT® \n\n
+
+কোথায় Vaccine দেওয়া হয়?\n\n
+প্রায় সব Vet-ই vaccine দিয়ে থাকেন। আপনার পরিচিত কোন Vet এর কাছে অথবা আমাদের Vet Finder থেকে আপনার নিকটস্থ Vet এর ঠিকানা খুঁজে টিকা দেওয়ার জন্য নিয়ে যেতে পারেন। সবধরনের vaccine এর মূল্য একরকম নয়। বিভিন্ন Vet বিভিন্ন রকম দাম নির্ধারণ করে থাকেন। নিচে এর মূল্য তালিকা দেওয়া হল–\n\n\n
+Nobivac : ১০০০-১৫০০টাকা\n\n
+Rabisin : ৩০০-৫০০টাকা\n\n
+Quadricat : ১০০০-১৫০০টাকা\n\n
+বিঃদ্রঃ মূল্য তালিকা শুধুমাত্র ধারনা দেয়ার জন্য। এটা VET to VET পরিবর্তন হতে পারে।\n\n\n
+
+ভ্যাকসিন কখন দিতে হবে ? বিড়ালের বয়স ৪-৬ সপ্তাহের মধ্যে ১ম ডোজ ও ১০-১২ সপ্তাহের মধ্যে ২য় ডোজ এবং ১৪-১৬ সপ্তাহের মধ্যে ৩য় ডোজ ভ্যাকসিন দিতে হবে। *** প্রতি ১ বছর অন্তর অন্তর টিকা দিতে হবে। বিড়ালের ভ্যাকসিনের দাম\n\n\n
+কোন রোগের জন্য কি ভ্যাকসিন দিতে হবে? NOBIVAC® Feline 1-HCPCh ভ্যাকসিন বিড়ালকে ৪টি ভাইরাস, ব্যাকটেরিয়াজনিত প্রাণনাশক রোগ থেকে সুরক্ষিত রাখে। এই ভ্যাকসিন বাংলাদেশ সহজলভ্য এবং বিড়ালের জন্য খুবই উপকারী। এই ভ্যাকসিন যেসব রোগ প্রতিরোধ করে তা হলো:\n\n\n
+* Feline Calicivirus (FCV) (cat flu/বিড়ালের জ্বর)\n\n
+* Feline Rhinotracheitis (নিউমোনিয়া এবং ইনফলুয়েঞ্জা)\n\n
+* Feline Panleukopenia (FPV)\n\n
+* Feline Chlamydophila. RABISIN®\n\n
+
+ভ্যাকসিন বিড়ালের জলাতঙ্ক রোগ থেকে সুরক্ষা করে। এই ভ্যাকসিন ৬ মাস, ১ বছর, ৩ বছর সহ বিভিন্ন মেয়াদের হয়ে থাকে। QUADRICAT® ভ্যাকসিন বিড়ালকে নিম্নলিখিত ভাইরাস থেকে রক্ষা করে:\n\n
+* Calicivirus\n\n
+* Rhinotracheitis\n\n
+* Panleukopenia \n\n
+* Rabies \n\n
+ভ্যাকসিন্ এর কি কোন পার্শ্বপ্রতিক্রিয়া আছে? সাধারনত এর কোন পার্শ্বপ্রতিক্ক্রিয়া নেই। তবে অনেক বিড়ালের ২-১ দিনের মধ্যে চুলকানি, ঝিমঝিম ভাব, খাওয়ার অরুচি, বমি, ইত্যাদি হতে পারে। তবে এই লক্ষন বেশিদিন থাকলে অবশ্যই ভেট এর শরণাপন্ন হতে হবে।\n\n\n\n
+"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+

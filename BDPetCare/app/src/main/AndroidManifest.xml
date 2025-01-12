@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BDPetCare"
+        tools:targetApi="31">
+        <activity
+            android:name=".Wlccu"
+            android:exported="false" />
+        <activity
+            android:name=".FOSTERLOG"
+            android:exported="false" />
+        <activity
+            android:name=".INFOPRODES"
+            android:exported="false" />
+        <activity
+            android:name=".Information"
+            android:exported="false" />
+        <activity
+            android:name=".Webv"
+            android:exported="false" />
+        <activity
+            android:name=".Foster"
+            android:exported="false" />
+        <activity
+            android:name=".CATdocDhaka"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainVideo"
+            android:exported="false" />
+        <activity
+            android:name=".ALLvideo"
+            android:exported="false" />
+        <activity
+            android:name=".Video"
+            android:exported="false" />
+        <activity
+            android:name=".Docprodes"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Splashscreen"
+            android:exported="false" />
+        <activity
+            android:name=".Prodes"
+            android:exported="false" />
+        <activity
+            android:name=".item"
+            android:exported="false" />
+        <activity
+            android:name=".Others"
+            android:exported="false" />
+        <activity
+            android:name=".Heatcat"
+            android:exported="false" />
+        <activity
+            android:name=".Projonon"
+            android:exported="false" />
+        <activity
+            android:name=".Korajabena"
+            android:exported="false" />
+        <activity
+            android:name=".Ownercare"
+            android:exported="false" />
+        <activity
+            android:name=".FirstAid"
+            android:exported="false" />
+        <activity
+            android:name=".Vaccine"
+            android:exported="false" />
+        <activity
+            android:name=".Dadrog"
+            android:exported="false" />
+        <activity
+            android:name=".Paracitamol"
+            android:exported="false" />
+        <activity
+            android:name=".Viralrog"
+            android:exported="false" />
+        <activity
+            android:name=".UKUN"
+            android:exported="false" />
+        <activity
+            android:name=".Kanerrog"
+            android:exported="false" />
+        <activity
+            android:name=".THANDA"
+            android:exported="false" />
+        <activity
+            android:name=".Catflu"
+            android:exported="false" />
+        <activity
+            android:name=".Catdisease"
+            android:exported="false" />
+        <activity
+            android:name=".Foodhabit"
+            android:exported="false" />
+        <activity
+            android:name=".Sastho"
+            android:exported="false" />
+        <activity
+            android:name=".manushiksastho"
+            android:exported="false" />
+        <activity
+            android:name=".khabarniom"
+            android:exported="false" />
+        <activity
+            android:name=".goromejotno"
+            android:exported="false" />
+        <activity
+            android:name=".Sitejotno"
+            android:exported="false" />
+        <activity
+            android:name=".Gosolo"
+            android:exported="false" />
+        <activity
+            android:name=".DailycareActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Petcare"
+            android:exported="false" />
+        <activity
+            android:name=".Catsolution"
+            android:exported="false" />
+        <activity
+            android:name=".SPLASH"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- ekhn run koren phn a// crush korse  //     hoise abr// thank you vai -->
+        <!--
+   <meta-data
+            android:name="ca-app-pub-3940256099942544~3347511713"
+            android:value="ca-app-pub-xxxxxxxxxxxxxxxx~yyyyyyyyyy"/>
+        -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+    </application>
+
+</manifest>

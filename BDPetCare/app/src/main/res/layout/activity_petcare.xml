@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Petcare"
+    android:orientation="vertical"
+    android:background="#EDEEE8">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#FF9800"
+        >
+        <LinearLayout
+            android:layout_marginTop="25dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <ImageView
+
+                android:id="@+id/shoplink"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_margin="4dp"
+                android:layout_weight="0.6"
+                android:src="@drawable/back"
+                android:backgroundTint="@color/light_blue_600"
+                android:padding="2dp"
+                android:text="CLICK HERE"
+                android:textColor="#ffffff" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="পরিস্কার পরিচ্ছন্নতা"
+                android:textColor="#332B2B"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#ffffff"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_marginBottom="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            >
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:id="@+id/picporishkar"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cleancat"
+                android:scaleType="centerCrop"
+                />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#100F0F"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="
+১.বিড়ালের বাসস্থান:-\n\n
+•	আপনার পোষা প্রাণীর ঘুম এবং বিশ্রামের জন্য আপনার বাড়িতে তার নিজস্ব পরিষ্কার, শুকনো জায়গা থাকা উচিত।\n
+•	একটি নরম, উষ্ণ কম্বল বা তোয়ালে দিয়ে আপনার বিড়ালের বিছানা লাইন করুন।\n
+•	বিছানাটি কিছু সময় পর পর ধোয়া নিশ্চিত করুন।\n\n
+"
+        />
+
+
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২. পটি করার জায়গা নির্বাচন:\n\n
+বিড়ালকে পটি ট্রেইনড করার জন্য অবশ্যই একটি নির্দিষ্ট স্থান বাছাই করবেন। যেমন বেলকুনি, বাথরুম৷  জায়গা গুলোতে লিটার বক্স অথবা পটি পরিস্কারের সুব্যাবস্থা রাখা জরুরী।\n\n
+বিড়ালকে Potty train / Litter box ব্যাবহার করা শেখানোর কিছু পদ্ধতি-\n\n
+১। বিড়ালকে প্রথমে Litter box এর সাথে পরিচয় করিয়ে দিতে হবে।\n\n
+২। অনেক বিড়াল প্রথমে Litter box এ উঠতে চায় না, তাকে আগ্রহী করার জন্য তার পছন্দের খেলনা অথবা বল Litter box এর মধ্যে দিতে হবে।\n\n
+৩। যেহেতু বিড়াল টয়লেট করার পর ঢেকে দিতে চায় তাই Litter box এ বালু, মাটি, Litter (কিনতে পাওয়া যায়) অথবা কাগজ দিতে হবে।\n\n
+৪। বিড়াল টয়লেট করার আগে পা দিয়ে মাটিতে আঁচড়ায়, তখন সঙ্গে সঙ্গে তাকে ধরে নিয়ে litter box এ বসিয়ে দিতে হবে।\n\n
+৫। এভাবে ৫-৭ দিন নিয়মিত একই স্থানে/ Litter box এ তাকে টয়লেট করার জন্য বসিয়ে দিতে হবে। দিনের মধ্যে ৫-৬ বার এটা করতে হবে।\n\n
+৬। কোন স্থানে বিড়াল টয়লেট করলে পরবর্তীতে সে বারবার ওখানেই টয়লেট করতে চায়। কারন ওদের টয়লেটের গন্ধ ঐ স্থানে থেকে যায়। তাই ঐ স্থানটি খুব ভালো করে ভিনেগার অথবা লিকুইড সাবান দিয়ে মুছতে হবে যাতে একটুও গন্ধ না থাকে।\n\n
+৭। অবশ্যই Litter box শুকনা ও পরিষ্কার করে রাখতে হবে। অপরিষ্কার, ভেজা, দুর্গন্ধযুক্ত Litter box বিড়াল ব্যাবহার করতে চায় না। দিনে অন্তত দুইবার পরিষ্কার করতে হবে।\n\n
+৮। বিড়াল টয়লেট করতে পছন্দ করে যেমন-ফুলের টব, কাগজের ব্যাগ, কাপড়ের টুকরা, চটের ব্যাগ ইত্যাদি Litter box এর কাছাকাছি রাখা যাবে না। এতে তারা ওখানেই টয়লেট করতে চাইবে।\n\n
+৯। বিড়ালের আকার অনুযায়ী litter box কিনতে হবে। তার যাতে বসতে অসুবিধা না হয় তা খেয়াল রাখতে হবে। অনেক বিড়াল privacy পছন্দ করে। তখন ঢাকনাযুক্ত Litter box কিনে দিতে হবে অথবা অন্ধকার কোন স্থানে litter box বসাতে হবে।\n\n
+১০। ঘরের এমন জায়গায় Litter box দিতে হবে যেখানে সে সহজে যাতায়াত করতে পারে। বদ্ধ ঘরে Litter box দেওয়া যাবে না, এতে ঘরে গন্ধ বেশি হয়, সহজে বাতাস চলাচল করে এমন জায়গায় Litter box দিতে হবে।\n
+
+"
+                />
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৩. পরিচর্যা:\n\n
+•  সপ্তাহে একবার নখ কেটে দিবেন\n\n
+•  গ্রুমিং করবেন যেমন ২-৩ দিন পরপর বিড়ালকে একটি নির্দিষ্ট স্থানে চিড়ুনি দিয়ে আচড়িয়ে দিবেন হালকা ভাবে।\n
+
+"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

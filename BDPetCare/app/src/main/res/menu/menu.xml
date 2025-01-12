@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/Doctor"
+        android:title="VET"
+        
+        android:icon="@drawable/doctor"/>
+
+
+    <item
+        android:id="@+id/FOSTER"
+        android:title="VOLUNTEER"
+        android:icon="@drawable/donation"/>
+
+
+    <item
+        android:id="@+id/profile"
+        android:title="HOME"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:id="@+id/medicine"
+        android:title="CATSHOP"
+        android:icon="@drawable/good"/>
+
+
+    <item
+        android:id="@+id/ACCOUNT"
+        android:title="ACCOUNT"
+        android:icon="@drawable/user"/>
+
+
+</menu>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DailycareActivity"
+    android:orientation="vertical"
+    android:background="#EFEBDF">
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <ImageView
+            android:id="@+id/shoplink"
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:layout_weight="0.6"
+            android:src="@drawable/back"
+            android:backgroundTint="@color/light_blue_600"
+            android:padding="2dp"
+            android:text="CLICK HERE"
+            android:textColor="#ffffff" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="DAILYCARE"
+            android:textColor="#332B2B"
+            android:textSize="27dp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+
+
+
+<LinearLayout
+    android:layout_marginTop="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#EFEBDF"
+
+
+    >
+
+    <androidx.cardview.widget.CardView
+        android:backgroundTint="#ffffff"
+        android:id="@+id/porishkar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="15dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+        >
+        <TextView
+            android:layout_gravity="center"
+            android:textColor="#100F0F"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="পরিস্কার পরিচ্ছন্নতা"
+            android:gravity="center"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/gosol"
+        android:backgroundTint="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="15dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+        >
+        <TextView
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#100F0F"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" গোসল করানোর নিয়ম"
+            android:gravity="center"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sitejotno"
+        android:backgroundTint="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="15dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+        >
+        <TextView
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#100F0F"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="শীতে পোষা বিড়ালের যত্ন"
+            android:gravity="center"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/goromejotno"
+        android:backgroundTint="#ffffff"
+     android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="15dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+        >
+        <TextView
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#100F0F"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="গরমে বিড়ালের যত্ন"
+            android:gravity="center"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/khabarniom"
+        android:backgroundTint="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="15dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+        >
+        <TextView
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#100F0F"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="বিড়ালকে খাবার দেওয়ার নিয়ম"
+            android:gravity="center"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sastho"
+        android:backgroundTint="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="15dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+        >
+        <TextView
+            android:textStyle="bold"
+
+            android:layout_gravity="center"
+            android:textColor="#100F0F"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="বিড়ালের স্বাস্থ্য"
+            android:gravity="center"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/manushiksastho"
+        android:backgroundTint="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="15dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+        >
+        <TextView
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#100F0F"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="বিড়ালের মানসিক স্বাস্থ্য"
+            android:gravity="center"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_margin="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+
+</LinearLayout>
+</LinearLayout>

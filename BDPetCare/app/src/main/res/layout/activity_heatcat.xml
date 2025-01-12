@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Heatcat"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#FF9800"
+        >
+
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <ImageView
+
+                android:id="@+id/shoplink"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_margin="4dp"
+                android:layout_weight="0.6"
+                android:src="@drawable/back"
+                android:backgroundTint="@color/light_blue_600"
+                android:padding="2dp"
+                android:text="CLICK HERE"
+                android:textColor="#ffffff" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="বিড়ালের  Heat"
+                android:textColor="#332B2B"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#ffffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/gosol"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cleancat"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+বিড়ালের Heat কি?\n\n
+
+বিড়ালের বয়স চার–পাঁচ মাস হলে বিড়াল sexually mature হয় অর্থাৎ heat(calling নামেও পরিচিত) এ আসে। তখন কিছু লক্ষনের মাধ্যমে বোঝা যায় বিড়াল heat এ এসেছে এবং mating এর জন্য প্রস্তুত। এটা কিছুদিন পরপর নির্দিষ্ট চক্রাকারে হতে থাকে।সাধারনত দেশি বিড়াল চার-পাঁচ মাস বয়সে heat এ আসে তবে এটা নির্ভর করে breed এর উপর, যেমন- Persian জাতের বিড়াল ১০মাসের বেশি বয়সে heat এ আসে।\n\n\n
+
+বিড়াল কখন Heat এ আসে?\n\n
+
+সাধারনত একটি সুস্থ বিড়াল প্রতি ২-৩ সপ্তাহ পর পর heat এ আসে। এটাও অনেক সময় breed, season এর উপর নির্ভর করে। প্রথম দিকে ২-৩ দিন heat এ থাকে। আস্তে আস্তে সময় বেড়ে এটি ৭-১৪ দিন পর্যন্ত স্থায়ী হয়ে থাকে।\n\n\n
+
+Heat এ আসার লক্ষনসমুহ\n\n
+
+• ৪ মাস বয়সের পর বিড়াল যদি হটাৎ করে অস্বাভাবিক আচরণ করে অর্থাৎ গড়াগড়ি করে, মাথা ও লেজ দিয়ে ঘষতে থাকে এবং লেজ উঁচু করে বসে ইত্যাদি।\n\n
+• রাতে বেলা জেগে থাকে। জোরে জোরে ডাকে এবং অস্থিরতা বেড়ে যায়(মেয়েবিড়াল বেশি ডাকে)।\n\n
+• খাবার খেতে চায় না অথবা ক্ষুধা অনেক বেড়ে যায়।\n\n
+• Potty trained কিন্তু Litter box ছেড়ে এখানে ওখানে টয়লেট করে অর্থাৎ spraying করে।\n\n
+• বাইরে যাওয়ার জন্য অস্থির হয়ে যায় এবং সুযোগ পেলেই পালিয়ে যায়।\n\n
+• ঘরে একের অধিক ছেলে বিড়াল থাকলে মারামারি করে।\n\n
+• বিড়াল কিছুটা হিংস্র হয়ে যায় কামড় ও খামচি দিতে চায়।\n\n
+• এসময় বিড়াল বেশি করে তার শরীর চাটে। vulva বার বার ভিজে যায় এবং সে তা চেটে পরিস্কার করতে থাকে।\n\n
+• মেয়ে বিড়াল এবং ছেলে বিড়াল কাছাকাছি থাকলে mate করতে চায়।\n\n
+
+
+what-is-cat-heat-and-heat-symptoms2\n\n\n
+
+Heat এ আসলে যা করণীয়\n\n
+
+• বিড়ালের বয়স ৪-৫মাস হলে Spay অথবা Neuter করাতে হবে। তাহলে পরবর্তীতে সে আর Heat এ আসবে না।\n\n
+• ছেলে ও মেয়ে বিড়ালকে আলাদা রাখতে হবে তা নাহলে বিড়াল pregnant হয়ে যাবে এবং ঘন ঘন বাচ্চা দিবে। একটি বিড়ালের এক সাথে ৬-৮টি পর্যন্ত বাচ্চা দিতে পারে।\n\n
+• বিড়ালকে বেশি বেশি আদর করতে হবে। এ সময় বিড়াল আদর খুব পছন্দ করে।\n\n
+• অনেক বিড়াল খুব জোরে জোরে ডাকে তখন বিরক্ত না হয়ে তার ডাকাডাকি বন্ধ করার জন্য তার সাথে খেলতে হবে এবং বেশি করে সময় দিতে হবে।\n\n\n\n\n
+
+
+
+
+"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

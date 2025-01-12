@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F1F0F0"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:background="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       app:cardCornerRadius="7dp"
+        android:layout_margin="10dp"
+        android:elevation="100dp"
+        >
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="#ffffff"
+
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_gravity="center"
+                android:id="@+id/image"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:src="@drawable/cat"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/name"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DOCTOR"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff"
+        >
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:id="@+id/active"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ONLINE"
+
+            android:textSize="12sp"
+            />
+
+
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:id="@+id/catagory"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INTERN VET"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+        >
+
+        <ImageView
+
+            android:id="@+id/offer"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/camera"
+ />
+
+
+        <TextView
+
+            android:background="#DEDDD4"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/fee"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="50tk"
+            android:textAlignment="center"
+            android:textSize="17dp"
+            android:textColor="#0C0C0C"
+            android:textStyle="bold"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".INFOPRODES"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#FF9800"
+        >
+
+    <LinearLayout
+android:layout_marginTop="30dp"
+        android:background="#FF9800"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <ImageView
+
+            android:id="@+id/shoplink"
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:layout_weight="0.6"
+            android:src="@drawable/back"
+            android:backgroundTint="@color/light_blue_600"
+            android:padding="2dp"
+            android:text="CLICK HERE"
+            android:textColor="#ffffff" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="LATEST INFORMATION"
+            android:textColor="#332B2B"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#ffffff"
+        />
+    </LinearLayout>
+    <ScrollView
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/policy"
+        />
+    <TextView
+        android:id="@+id/title"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#0A0A0A"
+        android:text="Not possible to share more than seven seats: Quader"
+        />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_marginTop="10dp"
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+
+        android:textColor="#0A0A0A"
+        android:text="Speaking about the alliance partner's demand to withdraw AL's independent candidates, Quader said, Elections will be competitive ... If the independents win, we will not forcibly take away anyone's victory.
+    Asked whether the partners have been seeking guarantees that they would win, the AL General Secretary said, We cannot guarantee victory to anyone. I am the general secretary of Awami League and I have no guarantee of winning. Four contenders are contesting against me. If anyone wins here, I have to accept the defeat."
+        />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

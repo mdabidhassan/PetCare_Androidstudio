@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Foodhabit"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#FF9800"
+        >
+
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <ImageView
+
+            android:id="@+id/shoplink"
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:layout_weight="0.6"
+            android:src="@drawable/back"
+            android:backgroundTint="@color/light_blue_600"
+            android:padding="2dp"
+            android:text="CLICK HERE"
+            android:textColor="#ffffff" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Food Habit"
+            android:textColor="#332B2B"
+            android:textSize="27dp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#ffffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/gosol"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cleancat"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+বিড়াল মাংসাশী প্রাণী তাই তাকে সাধারনত এক ধরনের খাবার অর্থাৎ শুধু মাছ অথবা শুধু মাংস খাওয়ানো হয়। কিন্তু কিছু খাবার রয়েছে যা খেতে বিড়াল খুবই পছন্দ করে। তবে মনে রাখতে হবে এই খাবারগুলো অধিক পরিমানে খেলে বিড়াল অসুস্থ হয়ে পড়তে পারে। মাঝে মাঝে তাই বিড়ালকে খুশি করতে Treat হিসেবে খাবারগুলো দেওয়া যেতে পারে।\n\n
+১। টুনা মাছ (Tuna Fish) : টুনা মাছ বিড়ালের খুবই পছন্দের একটি খাবার। তবে খেতে পছন্দ করলেও বেশি পরিমানে খেতে দেওয়া যাবে না। বেশি খেলে এটি পাকস্থলীতে পাচক রস, ফ্যাটি এসিড এবং ম্যাগনেসিয়াম উৎপন্ন হতে বাধা দেয় এবং শরীরের ক্ষতি হয়।\n\n
+২। দুধ (Milk) এবং চীজ (CHEESE) : দুধ এবং চীজ প্রোটিনের ভালো একটি উৎস। কিন্তু অনেক বিড়ালের lactose সহ্য করার ক্ষমতা থাকে না ফলে ডাইরিয়া হয়ে যায়। বিড়াল দুধ এবং চীজ খেতে খুব পছন্দ করে ।তাই মাঝে মধ্যে treat হিসেবে অল্প চীজ এবং পানি মেশানো দুধ খেতে দেওয়া যেতে পারে।\n\n
+৩। ডিম (Egg) : সেদ্ধ অথবা রান্না করা ডিম বিড়াল খেতে খুবই পছন্দ করে।এটা প্রাণী প্রোটিনের চমৎকার উৎস।তবে রান্না করার সময় বাটার এবং কুকিং স্প্রে ব্যাবহার করা যাবে না এবং খেয়াল রাখতে হবে যে বিড়াল কাঁচা ডিম খায় না।\n\n
+৪। কলিজা (Liver) : প্রাণীর কলিজা খেতে বিড়াল পছন্দ করে এবং এটি ভিটামিন A এর ভালো উৎস। তবে অতিরিক্ত পরিমানে খেলে বিষক্রিয়া হয় যা বিড়ালের হাড়ের এবং মেরুদণ্ডের ক্ষতি করে।\n\n
+৫। বিড়ালের ট্রিট (Cat Treat) : Cat Treat প্যাকেটে কিনতে পাওয়া যায় এবং বিড়াল খেতে খুব ভালবাসে। মাঝেমধ্যে বিড়ালকে খুশি করার জন্য Cat treat দেওয়া যায়। তবে অতিরিক্ত Cat treat বিড়ালের ওজন বাড়িয়ে দিতে পারে।\n\n
+৬। ব্রকলি (BROCCOLI) অথবা পালংশাক (SPINACH) : যদিও বিড়াল মাংসাশী প্রাণী, হজমের সুবিধার কারনে তারা অনেক সময় ঘাস, লতা পাতা খেয়ে থাকে। তাই অল্প পরিমানে ব্রকলি সেদ্ধ করে বিড়ালকে খাওয়ানো যেতে পারে যা তাদের খাদ্য হজমে সাহায্য করবে এবং বিষাক্ত গাছ থেকে দূরে নিরাপদে রাখবে। পালংশাক ও খাওয়ানো যায় তবে কিডনির সমস্যা থাকলে তা থেকে দূরে রাখতে হবে।\n\n
+৭। তরমুজ (Melon) অথবা কলা (Banana) : অনেক বিড়াল পছন্দ করে তরমুজ অথবা কলা খায়। এগুলো বিড়ালকে ঘাস, লতা-পাতা থেকে দূরে রাখবে। অল্প পরিমানে তরমুজ(দানা ফেলে দিয়ে) অথবা কলা মাঝেমধ্যে খুব কম পরিমানে দেওয়া যেতে পারে। যেহেতু বিড়াল নিরামিষভোজী নয় তাই বেশি পরিমানে তরমুজ অথবা কলা তারা হজম করতে পারবে না।\n\n
+
+"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/fcat"
+                android:scaleType="centerCrop"
+                />
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="অনেক প্রাণিপ্রেমী বিড়ালের খাবার সম্পর্কে জানতে চান। শখ করে পোষা বিড়ালটির যেন কোন ক্ষতি না হয় সেজন্য খেয়াল রাখেন সবসময়। আজ বিড়ালের বয়স অনুযায়ী কিকি খাবার কিভাবে দেবেন সে বিষয়ে জানুন…\n\n
+
+
+০সপ্তাহ–৪ সপ্তাহ : মায়ের দুধ এসময় বিড়ালের জন্য আদর্শ খাদ্য। এসময় বিড়াল শুধুমাত্র লিকুইড/তরল খাবার খেতে পারে। কোন শক্ত খাবার খাওয়ার প্রয়োজন নেই। বাচ্চাটি যদি orphan হয় সেক্ষেত্রে baby feeder/dropper/syringe এ করে গরুর তরল দুধ অথবা পাউডার দুধ খাওয়াতে হবে। দুধ ঘন হলে বাচ্চার ডায়রিয়া হয়ে যেতে পারে। তাই সমান পরিমান পানির সাথে (১কাপ তরল দুধ=১কাপ পানি এই অনুপাতে) মিশিয়ে, পাউডার হলে খুব পাতলা করে গুলিয়ে তারপর বাচ্চাটিকে খাওয়াতে হবে। গরুর দুধে lactose বেশি থাকার কারনে এই বিড়ালের জন্য ক্ষতিকর। এছাড়া বিভিন্ন pet shop এ orphan বিড়ালের বাচ্চাদের জন্য kitten formula কিনতে পাওয়া যায় যা মায়ের দুধের বিকল্প হিসেবে ব্যাবহার করা যায়। চার সপ্তাহ বয়স পর্যন্ত প্রতি ২-৩ ঘণ্টা পরপর এভাবে খাওয়াতে হয়।\n\n
+৪সপ্তাহ – ১২ সপ্তাহ : এসময় বিড়ালের বাচ্চা দুধের পাশাপাশি অন্য খাবার খেতে পারে। বিভিন্ন খাবার যেমন- কাঁটা ছাড়া মাছ, থেঁতলানো সেদ্ধ মাংস (মশলা ছাড়া) ইত্যাদি খেতে দিতে হবে। ভাত দিতে চাইলে অল্প পরিমানে ভাত মিশাতে হবে। খাবারটি ভালভাবে থেঁতলিয়ে একটু পানি মিশিয়ে নরম করে দিতে হবে। Kitten Food খাওয়ানো যায় এবং প্রয়োজনে পানি মিশিয়ে নরম করে দিতে হবে। প্যকেট এর গায়ে ওজন অনুযায়ী খাওয়ানোর নির্দেশনা দেওয়া থাকে। এসময় বাচ্চাদের অধিক পুষ্টি প্রয়োজন হয় যা Kitten Food এ পাওয়া যায়। দিনে ৩-৫ বার বাচ্চাকে খাওয়াতে হবে এবং ধীরে ধীরে দুধ খাওয়ানো কমিয়ে আনতে হবে। তবে ৮-১০ সপ্তাহ বয়সের পরে আর দুধ খাওয়ানোর প্রয়োজন নেই।\n\n
+১২সপ্তাহ/৩মাসের পর থেকে : এসময় বিড়াল সব ধরনের খাবার যেমন- বিভিন্ন ধরনের মাছ, মুরগির মাংস, গরুর মাংস, ডিম, Cat wet food, Cat dry food ইত্যাদি খায়। সাথে প্রচুর পরিমানে বিশুদ্ধ পানি খেতে দিতে হবে। যেহেতু বিড়াল মাংসাশী প্রাণী তাই ভাত দিলেও অল্প ভাতের সাথে বেশি মাংস মিশিয়ে খাওয়াতে হবে। তবে খাবারটি অবশ্যই তেল , মশলা , লবন , চিনি, পেঁয়াজ , রসুন ছাড়া শুধু পানিতে সেদ্ধ করে দিতে হবে। কাঁচা মাছ মাংস না খাওয়ানো ভালো কারন এতে ব্যাকটেরিয়া থাকে ফলে বিড়াল রোগে আক্রান্ত হয়। এসময় তাকে দিনে ২-৩বার খাওয়াতে হবে।\n\n
+Pregnant এবং মা বিড়ালের খাবার : বিড়ালের গর্ভাকাল(Gestation) এর সময় আনুমানিক ৯সপ্তাহ।food-routine-according-to-age2 এসময় একটি Pregnant বিড়ালের খাবারের চাহিদা ৫০গুন বেশি বেড়ে যায়। এসময় বেশি পুষ্টিকর খাবার খাওয়াতে হবে এবং আলাদা ভাবে যত্ন নিতে হবে। অন্যান্য খাবারের পাশাপাশি kitten food খেতে দেওয়া যায় কারন এতে আলাদা পুষ্টি থাকে। বাচ্চা হওয়ার পর বাচ্চাদের দুধ খাওয়ানোর সময়ও মা বিড়ালের আলাদা পুষ্টির প্রয়োজন হয়। বাচ্চা হওয়ার ৮-৯ সপ্তাহ পর মা বিড়ালের দুধ উৎপাদন বন্ধ হয়ে যায়। তখন সে আস্তে আস্তে আগের খাবারের পরিমানে ফিরে আসে। এসময় বিড়ালের স্বাস্থ্য খারাপ হয়ে যেতে পারে তাই অতিরিক্ত ওজন কমে গেলে vet এর সাথে যোগাযোগ করতে হবে।\n\n
+
+"
+                />
+
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Food:\n\n
+Purina Cat Chow Hairball , Weight Dry Cat Food\n\n
+বিড়ালের জন্য মুরগি থেকে তৈরি সেরা খাবার হলো Purina Cat Chow Hairball , Weight Dry Cat Food. এটিতে মুল উপাদান হিসেবে রয়েছে মুগরির উপজাত খাবার, হোল গ্রেইন কর্ণ, সয়া ফ্লাওয়ার এবং হোল গ্রেইন গম। এটিতে পুষ্টি উপাদান হিসেবে রয়েছে প্রোটিন ৩০% এবং চর্বি ৫%। এটি বিড়ালের জন্য অত্যন্ত স্বাস্থ্যকর একটি খাবার এটিতে কোন প্রকারের কৃত্রিম রঙ এবং স্বাদ নেই। এটি বিড়ালের ওজন নিয়ন্ত্রন করতে এবং বিড়ালের চুলগুলোকে অনেক বেশি সতেজ রাখতে সহায়তা করে। এটিতে বিড়ালের জন্য প্রয়োজনীয় সকল ভিটামিন এবং খনিজ পদার্থ রয়েছে। \n\n
+
+Wellness CORE Grain-Free Indoor Dry Cat Food\n\n
+পার্সিয়ান বিড়ালের জন্য শস্য মুক্ত সেরা শুকনো খাবার হলো Wellness CORE Grain-Free Indoor Dry Cat Food. এটিতে মুল উপাদান হিসেবে রয়েছে ডিবোনড চিকেন, টার্কি, মুরগির খাবার, মোটর এবং আলু। এটিতে পুষ্টি উপাদান হিসেবে রয়েছে প্রোটিন ৪৫% এবং চর্বি ১৮%। এটি পার্সিয়ান বিরালকে অনেক বেশি সক্রিয় রাখার পাশাপাশি বিড়ালকে চর্বিহীন রাখতেও অনেক বেশি সহায়তা করে। এটিতে রয়েছে প্রোবায়োটিক এবং অ্যান্টিঅক্সিডেন্ট যা বিড়ালের পেট এবং রোগ প্রতিরোধ ক্ষমতা কে বৃদ্ধি করতে সহায়তা করা। এটি ফিলার এবং সম্পূর্ণ কৃত্রিম উপাদান মুক্ত একটি খাবার।\n\n
+
+CAT FOOD NAME:\n\n
+Smart Heart Creamy Cat Treats Squid (15gx4pcs)\n\n
+
+Whiskas Kitten Pouch Cat Food Chicken in Gravy 85gm\n\n
+
+Smartheart Creamy Cat Treat Tuna Flavor 4x15g\n\n
+
+Whiskas kitten Pouch Wet Cat Food tuna in jelly 85gm\n\n
+
+Whiskas kitten Pouch Wet Cat Food tuna in jelly 85gm\n\n
+
+Bonacibo Canned Wet Adult Cat Food Sardine and Tuna Pate 400gm\n\n
+
+Bonacibo Canned Wet Adult Cat Food Chicken And Turkey Chunks In Jelly 400gm\n\n
+
+Nekko Pouch Cat Food Real Tuna Topping Katsuobushi In Jelly 70gm\n\n
+
+Nekko Pouch Cat Food Real Tuna Topping Sasami 70gm\n\n
+
+Nekko Pouch Cat Food Real Tuna Topping Sasami 70gm\n\n
+
+Reflex Plus Adult Cat Food with Lamb And Rice 1.5kg\n\n
+
+Reflex Plus Sterilised Cat Food with Chicken 1.5kg\n\n
+
+Reflex Plus Sterilised Cat Food with Chicken 1.5kg\n\n
+
+
+"
+                />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/fcat"
+                android:scaleType="centerCrop"
+                />
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="বিড়ালের খাবারের পরিমান\n\n
+একটি বিড়ালের খাবার এবং পরিমান নির্ভর করে তার বয়স এবং ওজনের উপর। এছাড়া Indoor অথবা Outdoor বিড়াল কিনা, Spayed অথবা Neutered কিনা , কি পরিমান খেতে পারে এসব বিষয়ের ওপরও খাবারের পরিমান নির্ভর করে। New York এর Animal Medical Center অনুযায়ী, একটি সুস্থ ও প্রাপ্তবয়স্ক ৩-৪ কেজি ওজনের বিড়ালের প্রতিদিন ২৪০ ক্যালোরি সমৃদ্ধ খাদ্য প্রয়োজন হয়। অর্থাৎ প্রতি কেজিতে ৬০-৬৫ ক্যালোরি প্রয়োজন।\n\n
+Dry Food এ প্রতি এক কাপ খাবারে ৩০০ ক্যালোরি (ব্র্যান্ড অনুযায়ী ক্যালোরি কম বেশি হতে পারে, কতটুকু ক্যালোরি থাকে তা প্যাকেটের গায়ে সঠিক ভাবে লেখা থাকে) থাকে এবং ৮৫ গ্রামের Canned Food এ ২৫০ ক্যালোরি পাওয়া যায়। Dry Food হলে ২ কাপ এবং Canned Food হলে ৮৫ গ্রামের প্যাকেট দিতে হবে। তবে প্রয়োজন অনুযায়ী পরিমান কম বেশি করা যাবে।\n\n\n
+
+"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

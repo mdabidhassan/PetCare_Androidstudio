@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstAid"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#FF9800"
+        >
+
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <ImageView
+
+                android:id="@+id/shoplink"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_margin="4dp"
+                android:layout_weight="0.6"
+                android:src="@drawable/back"
+                android:backgroundTint="@color/light_blue_600"
+                android:padding="2dp"
+                android:text="CLICK HERE"
+                android:textColor="#ffffff" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="বিড়ালের প্রাথমিক চিকিৎসা"
+                android:textColor="#332B2B"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#ffffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-4921490693339291/9494730536">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/gosol"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cleancat"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+
+শরীরের কোনও স্থান কেটে গেলে প্রথমে কিছু বিষয় লক্ষ করতে হবে-\n\n
+১) ক্ষতস্থানটিতে রক্তক্ষরণ হচ্ছে কিনা।\n\n
+২) জায়গাটি ফোলা কিনা।\n\n
+৩) জায়গাটির লোম পড়ে গিয়েছে কিনা।\n\n
+৪) ব্যথা আছে কিনা।\n\n
+৫) চামড়া কেটে গিয়েছে কিনা।\n\n
+ক্ষতটি যদি গভীর হয় এবং রক্তক্ষরণ বেশি হতে থাকে তাহলে স্থানটি চেপে ধরতে হবে যাতে রক্তক্ষরণ বন্ধ হয়। তারপর শুধু পানি দিয়ে পাতলা কাপড় অথবা গজ ভিজিয়ে জায়গাটি মুছে বেঁধে দিতে হবে। এছাড়া বরফের টুকরা ঘষে দেওয়া যায় রক্তক্ষরণ থামানোর জন্য। তারপর অবশ্যই ডাক্তারের কাছে নিয়ে যেতে হবে। কারন না বুঝে মানুষের ওষুধ যেমন – Napa, Aspirin, Paracetamol, Advil, Tylenol, Savlon, Dettol ইত্যাদি কখনই বিড়ালকে দেওয়া উচিৎ না। এই ওষুধগুলো বিড়ালের জন্য ক্ষতিকর এবং এতে বিড়ালের মৃত্যুও হতে পারে।\n\n
+ক্ষতটি যদি অগভীর হয় এবং রক্তক্ষরণ না হয় সেক্ষেত্রে জায়গাটি বিশুদ্ধ পানি দিয়ে মুছে আয়োডিন সলিউসন লাগিয়ে Nebanol জাতীয় powder(পশু চিকিৎসকের পরামর্শ অনুযায়ী) লাগাতে হবে। ক্ষত স্থানটি ব্যান্ডেজ না করাই ভালো। যদি অন্য প্রাণীর কামড় হয় তাহলে ভ্যাকসিন দিতে হবে।\n\n
+সাধারনত বিড়ালের ক্ষত খুব দ্রুত ১-২ সপ্তাহের মধ্যে সেরে যায়। কিন্তু ক্ষতটি গভীর হলে ডাক্তারের পরামর্শ অনুযায়ী বিড়ালকে বিশ্রাম দিতে হবে।  যদি ডাক্তার ব্যান্ডেজ করে দেয় তাহলে ২-১ দিন পর পর ব্যান্ডেজ পরিবর্তন করে দিতে হবে এবং নিয়মিত ওষুধ খাওয়াতে হবে। যদি সেলাই লাগে সেক্ষেত্রে বিড়ালকে বেশি দৌড়ঝাঁপ করতে দেওয়া যাবে না। অস্বস্তি হওয়ার কারনে বারবার চাটতে চাইবে তখন তাকে চাটতে দেওয়া যাবে না কারন তাতে সেলাই ছুটে যাওয়ার ভয় থাকে। তখন তাকে Elizabeth Cat Collar(কিনতে পাওয়া যায়) পড়িয়ে দিতে হবে।  এভাবে বিড়ালকে সঠিকভাবে পরিচর্যার মাধ্যমে সুস্থ করে তুলতে হবে।\n\n\n
+বিড়াল হঠাত বমি করলে কি করবেন:-----\n\n
+
+বমি হওয়ার পর পর বিড়ালকে কোনো খাবার এবং পানীয় না দেওয়া। কমপক্ষে ২ঘন্টা পর অল্প করে পানি পান করানো এবং ধীরে ধীরে নরম খাবার খাওয়ানো। যেমনঃ সিদ্ধ আলু, চামড়া ছাড়ানো রান্নাকরা মুরগীর মাংস। কোনো কোনো ক্ষেত্রে তরল খাবারের মাধ্যমে চিকিৎসা করতে হয় অথবা বমির উদ্রেগ উপশমকারী ঔষধ দিতে হয়। সঠিক চিকিৎসা নির্ণয়ের জন্য চিকিৎসকের উপদেশ নেয়া উত্তম।\n\n\n
+
+বিড়ালের পা ফুলে গেলে কি করবেন\n\n
+পড়ে গিয়ে ব্যথা পেলে যদি কোথায় চোট লেগে ফুলে যায় তাহলে সঙ্গে সঙ্গে আক্রান্ত জায়গায় বরফ সেঁক দেয়া উচিত। এর ফলে শিরা-উপশিরাগুলো সংকুচিত হয়ে যাবে। প্রদাহের মাত্রা কমে যাওয়ার কারণে ফোলাভাব যেমন কমে যাবে, তেমনই যন্ত্রণাও কমবে দ্রুত(তবে কেটে গেলে বরফ সেক দেওয়া উচিত নয়)। তবে ১০-১২ মিনিট বরফ সেক দিতে পারেন। আর যদি পড়ে গিয়ে ব্যথা পেয়ে থাকেন কিন্তু সেই যায়গায় ফুলে না যায় কিন্তু যন্ত্রনা হচ্ছে তাহলে সেখানে ১০-১২ মিনিট কুসুম কুসম(যেটা সহনীয়) গরম সেঁক দিতে পারেন। আশা করি ব্যথা কমে যাবে।\n\n\n
+বিড়ালের ডায়রিয়া হলে প্রাথমিকভাবে যা করনীয়\n\n
+
+ প্রথমেই প্রাথমিক চিকিৎসা হিসেবে স্যলাইন খাওয়াতে হবে। মানুষের ওরস্যলাইনকে পরিমানমত অল্প পানিতে গুলিয়ে অথবা রাইস স্যলাইন রান্না করে ১/২ ঘণ্টা পর পর ২ সিরিঞ্জ করে খাওয়াতে হবে। খেতে না চাইলে ওয়েট ফুড অথবা মাছ মিশিয়ে ফ্লেভার বানিয়ে খাওয়াতে হবে অথবা সিরিঞ্জ এবং ড্রপার দিয়ে জোর করে খাওয়াতে হবে। Petme Probiotic খাবারের সাথে মিশিয়ে দিলে খুব ভাল কাজ করবে। এটি খুব দ্রুত পানিশূন্যতা দূর করে এবং পায়খানা বন্ধ করে এবং কোন সাইড ইফেক্ট নেই। এভাবে ১/২ দিনের মধ্যেই পাতলা পায়খানা হলে তা কমে যাবে। \n\n\n
+খাদ্যগ্রহন বন্ধ করে দিলে যা করনীয়\n\n
+•	বিড়াল যখন খাবার এবং পানি খায় না তখন আস্তে আস্তে তার শক্তি কমে যায়, শরীরে পানি শূন্যতা দেখা দেয় এবং সে দুর্বল হয়ে পড়ে। Vet এর কাছে যেতে দেরি হলে ততক্ষন পর্যন্ত বিড়ালকে সিরিঞ্জ অথবা ড্রপার দিয়ে প্রতি দুই ঘণ্টা অন্তর অন্তর ৮-১০ ফোঁটা করে saline খাওয়াতে হবে অথবা প্রতি তিন ঘণ্টা অন্তর অন্তর ৬-৮ ফোঁটা Dextrose 25% (গ্লুকোজ) খাওয়াতে হবে। তবে ডাইরিয়া হলে গ্লুকোজ খাওয়ানো যাবে না, পর্যাপ্ত পরিমানে পানি খেতে দিতে হবে।\n\n\n
+
+"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>

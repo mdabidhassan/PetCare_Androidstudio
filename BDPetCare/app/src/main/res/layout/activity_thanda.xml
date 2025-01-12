@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".THANDA"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#FF9800"
+        >
+
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <ImageView
+
+                android:id="@+id/shoplink"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_margin="4dp"
+                android:layout_weight="0.6"
+                android:src="@drawable/back"
+                android:backgroundTint="@color/light_blue_600"
+                android:padding="2dp"
+                android:text="CLICK HERE"
+                android:textColor="#ffffff" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="পোষা বিড়ালের ঠান্ডা"
+                android:textColor="#332B2B"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#ffffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/gosol"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cleancat"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+ঋতু পরিবর্তনের এই সময় পোষা বিড়ালের সাধারণ একটি রোগের নাম ‘কমন কোল্ড’, যা ক্যাট ফ্লু নামে বেশি পরিচিত। এটি মূলত ভাইরাসজনিত একটি রোগ। সাধারণত বিড়ালের ছোট ছানা (কিটেন) এই রোগে বেশি আক্রান্ত হয়ে থাকে। পূর্ণবয়স্ক বিড়াল এই রোগে খুব একটা আক্রান্ত হয় না। আক্রান্ত হলেও তাদের শরীরে কোনো লক্ষণ প্রকাশ পায় না। বরং তারা বাহক হিসেবে অন্য বিড়ালের দেহে এই রোগ ছড়িয়ে
+
+
+
+মৌসুমি এই ফ্লুতে বিড়াল আক্রান্ত হওয়ার পরই দ্রুত অন্য বিড়াল থেকে এটিকে আলাদা করে ফেলতে হবে। এরপর পরিষ্কার, স্বাস্থ্যকর ও উষ্ণ একটি স্থানে রাখতে হবে। নাক ও চোখ থেকে তরল বের হলে কিছুক্ষণ পর পর তা মুছে দিতে হবে।\n\n
+লক্ষণ:::\n\n
+আক্রান্ত বিড়াল অবসাদগ্রস্ত হয়ে পড়ে। নড়াচড়া করতে চায় না। সারা দিন শুয়ে-বসে কাটিয়ে দেয়। সর্দি-কাশি হয়ে থাকে। এ সময় মানুষের মতোই সাধারণ কিছু লক্ষণ দেখা যায়। নাক দিয়ে এক ধরনের তরল বের হয়। চোখ দিয়েও পানি পড়তে পারে। সর্দির কারণে নাক বন্ধ থাকায় মুখ হা করে নিশ্বাস নিতে হয়। নাক ও চোখে ঘা হয়। ক্ষুধামান্দ্য ও খাবারে অরুচি দেখা দেয়। খাবারে কোনো ধরনের স্বাদ পায় না। জ্বর হতে পারে। আবার ঠান্ডা লাগার কারণে গলার স্বরও পাল্টে যায়।\n\n
+এই রোগ থেকে বাঁচার সহজ উপায় হচ্ছে যথাসময়ে বিড়ালকে টিকা দেওয়া। বিড়ালের তিন মাস বয়সে প্রথম টিকা দিতে হয়। এরপর এক বছর অন্তর অন্তর টিকা দিতে হয়\n\n
+
+যেভাবে চিকিৎসা\n\n
+মৌসুমি এই ফ্লুতে বিড়াল আক্রান্ত হওয়ার পরই দ্রুত অন্য বিড়াল থেকে এটিকে আলাদা করে ফেলতে হবে। এরপর পরিষ্কার, স্বাস্থ্যকর ও উষ্ণ একটি স্থানে রাখতে হবে। নাক ও চোখ থেকে তরল বের হলে কিছুক্ষণ পর পর তা মুছে দিতে হবে। এক-দুই ফোঁটা নরসল স্যালাইন বা ড্রপ দিয়ে কটনবাড ভিজিয়ে চোখ ও নাক পরিষ্কার করে দিতে হবে। পুষ্টিকর খাবার ও পানি খাওয়াতে হবে। অরুচির কারণে খেতে না চাইলে জোর করে খাওয়ানোর চেষ্টা করতে হবে। অন্যথায় পানিশূন্যতা দেখা দিতে পারে। একান্তই খাওয়াতে না পারলে হাসপাতালে নিয়ে স্যালাইন দিতে হবে। বাড়িতে এই নিয়মগুলো মেনে চললে সাধারণত ৫-৭ দিনে রোগ সেরে যায়। এই সময়ের মধ্যে কোনো উন্নতি না ঘটলে হাসপাতাল অথবা বিশেষজ্ঞ ভেটেরিনারি চিকিৎসকের শরণাপন্ন হতে হবে।\n\n\n
+
+এই রোগ থেকে বাঁচার সহজ উপায় হচ্ছে যথাসময়ে বিড়ালকে টিকা দেওয়া। বিড়ালের তিন মাস বয়সে প্রথম টিকা দিতে হয়। এরপর এক বছর অন্তর অন্তর টিকা দিতে হয়। টিকা দেওয়া হয়নি, এমন বিড়ালই সাধারণত এই রোগে আক্রান্ত হয়ে থাকে। তাই আগে থেকেই টিকা দেওয়া থাকলে রোগের ঝুঁকি অনেকাংশে কমে যায়।\n\n
+
+"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

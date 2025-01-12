@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ownercare"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#FF9800"
+        >
+
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <ImageView
+
+                android:id="@+id/shoplink"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_margin="4dp"
+                android:layout_weight="0.6"
+                android:src="@drawable/back"
+                android:backgroundTint="@color/light_blue_600"
+                android:padding="2dp"
+                android:text="CLICK HERE"
+                android:textColor="#ffffff" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="বিড়াল থেকে  রোগ "
+                android:textColor="#332B2B"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#ffffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/gosol"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cleancat"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+Pet Allergy: কুকুর, বিড়ালের মতো প্রাণীকে অনেকেই ভালোবাসেন। তবে এই প্রাণীর থেকে অনেকের অ্যালার্জির সমস্যা দেখা দেয়। সেক্ষেত্রে সর্দি, কাশি থেকে শুরু করে শ্বাসকষ্ট পর্যন্ত হতে পারে। তাই পোষ্যকে শোয়ার ঘরে ঢুকতে না দেওয়াই ভালো।\n\n
+১) ক্যাপনোসাইটোফাগা ক্যানিমোরসাস\n
+জীবাণুটি বিড়াল ও কুকুরের লালায় পাওয়া যায়। তা মানুষকে খুব একটা সংক্রমিত করে না, কিন্তু যখন করে, তখন তা মৃত্যুর কারণ হয়ে দাঁড়াতে পারে। উপসর্গের মাঝে রয়েছে ব্লাড পয়জনিং, শক, রেসপিরেটরি ডিসট্রেস এবং মেনিনজাইটিস।\n
+এই জীবাণু থেকে নিরাপদ থাকতে কুকুর-বিড়ালের হালকা আঁচড় বা কামড়ের পর জায়গাটি ভালো করে অ্যান্টিসেপটিক দিয়ে পরিষ্কার করে নিন।\n\n\n
+২) বারটোনেলা হেনসেলি\n
+বিড়ালের আঁচড় বা কামড়ের মাধ্যমে এই ব্যাকটেরিয়া শরীরে প্রবেশ করতে পারে। এর মাধ্যমে হওয়া রোগটির নাম বারটোনেলোসিস। উপসর্গগুলো হলো লিম্ফ নোড ফুলে যাওয়া, ক্লান্তি এবং জ্বর। অ্যান্টিবায়োটিকের মাধ্যমে সাধারণত এর চিকিৎসা করা হয়। এই জীবাণু থেকে নিরাপদ থাকতেও আঁচড় বা কামড়ের পর জায়গাটি ভালো করে অ্যান্টিসেপটিক দিয়ে পরিষ্কার করে নিন।\n\n
+) টক্সোপ্লাজমা গন্ডি\n
+বিড়ালের লোম থেকে, বিড়ালের মলমূত্র থেকে ছড়ায় এই জীবাণু। রোগ প্রতিরোধ ক্ষমতা শক্তিশালী থাকলে তা বেশি সুবিধা করতে পারে না। তবে গর্ভবতী নারীদের ক্ষেত্রে তা বেশ বিপজ্জনক। এতে আক্রান্ত হবার উপসর্গগুলো হলো চোখে ঝাপসা দেখা, পেশি ব্যথা এবং সাধারণ ঠান্ডা জ্বরের মতো উপসর্গ দেখা যায়। এ জীবাণু থেকে নিরাপদ থাকতে আপনার বিড়ালকে ঘরে রাখুন, বাইরের বিড়ালকে ধরবেন না, বিড়াল যদি মলমুত্র করার জন্য লিটার বক্স ব্যবহার করে তা প্রতিদিন পরিষ্কার করুন এবং পরিষ্কারের সময়ে হাতে গ্লাভস পরে নিন।\n\n
+এ সব রোগ থেকে মুক্ত থাকার জন্য কিছু অভ্যাস গড়ে তুলতে পারেন-\n\n
+পোষা প্রাণীকে ধরার পর প্রতিবার হাত ধুয়ে নিন\n\n
+পোষা প্রাণীর মলমুত্র পরিষ্কারের সময়ে মাস্ক ও গ্লাভস পরে নিন\n\n
+আঁচড় ও কামড় দ্রুত পরিষ্কার করে নিন\n\n
+বিড়ালকে ঘরের ভেতরে রাখুন\n\n
+কুকুরকে ময়লা ঘাঁটাঘাঁটি করতে দেবেন না\n\n
+পোষা প্রাণীকে নিয়মিত পশু ডাক্তার দেখান ও ভ্যাকসিন দেবার ব্যবস্থা করুন\n\n\n
+
+যুক্তরাষ্ট্রের স্ট্যানলি মেডিকেল রিসার্চ ইনস্টিটিউটের গবেষকেরা শৈশবে বিড়াল পোষার সঙ্গে সিজোফ্রেনিয়ার যোগসূত্র নিয়ে আগের কিছু গবেষণার তথ্য-উপাত্ত পর্যালোচনা করেন। এতে দেখা গেছে শৈশবে বিড়াল পোষার অভ্যাস ছিল এমন ছেলে-মেয়েদের মধ্যে পরবর্তী জীবনে মানসিক রোগ দেখা দেওয়ার ঝুঁকি থাকে।\n\n\n
+
+"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

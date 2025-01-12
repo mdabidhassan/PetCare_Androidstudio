@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gosolo"
+    android:orientation="vertical"
+    android:background="#ffffff"
+
+    >
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#FF9800"
+        >
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:background="#FF9800"
+            >
+            <LinearLayout
+                android:layout_marginTop="25dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <ImageView
+
+                    android:id="@+id/shoplink"
+                    android:layout_width="10dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="4dp"
+                    android:layout_weight="0.6"
+                    android:src="@drawable/back"
+                    android:backgroundTint="@color/light_blue_600"
+                    android:padding="2dp"
+                    android:text="CLICK HERE"
+                    android:textColor="#ffffff" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="গোসল করানোর নিয়ম"
+                    android:textColor="#332B2B"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+
+            <androidx.viewpager.widget.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#ffffff"
+                />
+        </LinearLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#ffffff"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+    <ScrollView
+        android:layout_marginBottom="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            >
+
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:id="@+id/gosol"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cleancat"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:text="
+বিড়াল স্বভাবতই পরিষ্কার প্রাণী এবং ময়লা থেকে দূরে থাকে। ওরা নিজেরাই নিজেদেরকে চেটে পরিষ্কার রাখতে পছন্দ করে যাকে Natural Grooming বলে। ঘরে পালা বিড়ালকে মাসে অন্তত ১-২ বার গোসল করালে ভালো হয়। বয়স ২ মাসের নিচে হলে গোসল না করানোই ভাল। বিড়াল গোসল করা পছন্দ করে না এবং পানি গায়ে লাগলে ভয় পায় অনেক সময়। সুতরাং এদেরকে গোসল করানোর কিছু নিয়ম আছে।\n\n
+
+"
+                    android:textColor="#100F0F"
+                    android:textSize="17sp" />
+
+
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:textColor="#100F0F"
+                    android:layout_margin="10dp"
+                    android:textSize="17sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="গোসলের আগে-\n\n
+    ১) গোসলের আগে ভালভাবে চিরুনি দিয়ে আঁচড়ে দিতে হবে যাতে পোকা এবং আলগা লোমগুলো পড়ে যায় কারন ভিজে গেলে এদেরকে আলাদা করা মুশকিল হয়ে পড়ে।\n\n
+    ২) শরীরে কোনও ব্যথা, ক্ষত, কাঁটা আছে কিনা পরীক্ষা করে নিতে হবে। কারন ক্ষতস্থানে শ্যাম্পু লাগান ক্ষতিকর।\n\n
+    ৩) এসময় বিড়ালের কান পরিষ্কার করে দিতে হবে। তবে বেশি ভেতর দিকে পরিষ্কার করা যাবে না।\n\n
+    ৪) এরপর বিড়ালকে শান্ত হওয়ার জন্য কিছুটা সময় দিতে হবে।\n\n
+
+"
+                    />
+
+
+
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:textColor="#100F0F"
+                    android:layout_margin="10dp"
+                    android:textSize="17sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" গোসলের পদ্ধতি-\n\n
+    প্রথমে বিড়ালকে একটি গামলায় নিয়ে গায়ে আস্তে আস্তে হালকা গরমপানি (বিড়ালের চামড়া অনেক নরম তাই বেশি গরম পানি ব্যাবহার ক্ষতিকর) ঢালতে হবে। হটাত করে পানি গায়ে লাগলে ওরা ভয় পেয়ে যায় তাই ধীরে ধীরে ঢালতে হবে। খেয়াল রাখতে হবে মুখে পানির ঝাপটা না লাগে এবং কানে পানি না ঢুকে। তারপর দুইহাতে শ্যাম্পু নিয়ে সারা শরীরে লাগিয়ে দিতে হবে। এরপর আস্তে আস্তে পানি ঢেলে ফেনা ধুয়ে ফেলতে হবে। ভালভাবে ধুয়ে দিতে হবে যাতে ফেনা না থাকে। ফেনা থাকলে পরবর্তীতে ওদের গায়ে চুলকাতে পারে। একটি শুকনা তোয়ালে দিয়ে সারা শরীর ভালো করে মুছিয়ে দিয়ে তাড়াতাড়ি শুকানোর জন্য রোদে নিয়ে যেতে হবে। Hair Dryer দিয়েও শুকানো যায় কিন্তু এর শব্দে আপনার বিড়াল ভয় পেয়ে যেতে পারে এবং আপনার হাতে আঁচড়ে দিতে পারে। তাই Hair Dryer সাবধানে ব্যবহার করতে হবে।\n\n
+    শীতকালে গোসল না করানোই ভালো এতে বিড়ালের ঠাণ্ডা লেগে জ্বর আসতে পারে। অনেক বিড়াল গোসল করানোর সময় শান্ত থাকে, আবার কিছু বিড়াল অনেক অস্থির হয়ে যায়। যদি গোসল করানো একেবারেই অসম্ভব হয়ে যায় তাহলে ভেজা কাপড় দিয়ে মুছে দিতে হবে এবং পোকাদূর করার জন্য স্প্রে ও পাউডার ব্যাবহার করতে হবে।\n\n\n
+
+"
+                    />
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+

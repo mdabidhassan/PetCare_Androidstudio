@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:id="@+id/lin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/cruelty"
+            />
+
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="10dp"
+        android:elevation="7dp"
+        android:background="#ffffff"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+
+
+            android:background="#FFC107"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#1A1818"
+                android:padding="5dp"
+                android:id="@+id/infname"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="আ্যনিমল কেয়ার টিম"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+                />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/call"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/call" />
+
+            <TextView
+                android:textSize="17sp"
+                android:textColor="#1A1818"
+                android:id="@+id/c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/call"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="5dp"
+                android:gravity="center"
+                android:text="কল করুন" />
+
+            <TextView
+                android:textColor="#1A1818"
+                android:padding="5dp"
+                android:id="@+id/division"
+                android:layout_below="@id/infname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="বরিশাল"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:gravity="center"
+                />
+
+
+            <TextView
+                android:textColor="#3B3939"
+                android:padding="5dp"
+                android:minLines="2"
+                android:layout_below="@id/division"
+                android:id="@+id/servicefee"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:text="আসা যাওয়ার ভাড়া, মেডিসিন ও যাবতীয় খরচ গ্রহনযোগ্য।"
+                android:textSize="17sp"
+
+                />
+
+            <TextView
+                android:layout_below="@id/servicefee"
+                android:textColor="#5D5858"
+                android:padding="5dp"
+
+                android:id="@+id/servicefee2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="অবহেলিত প্রানীর জন্য কোন চার্জ নেই"
+                android:textSize="17sp"
+
+                />
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="3dp"
+    android:background="#D01010"
+    />
+
+</LinearLayout>

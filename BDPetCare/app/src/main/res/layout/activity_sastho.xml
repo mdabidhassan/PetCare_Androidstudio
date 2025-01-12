@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sastho"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#FF9800"
+        >
+        <LinearLayout
+            android:layout_marginTop="25dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <ImageView
+
+                android:id="@+id/shoplink"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_margin="4dp"
+                android:layout_weight="0.6"
+                android:src="@drawable/back"
+                android:backgroundTint="@color/light_blue_600"
+                android:padding="2dp"
+                android:text="CLICK HERE"
+                android:textColor="#ffffff" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="বিড়ালের স্বাস্থ্য"
+                android:textColor="#332B2B"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#ffffff"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/gosol"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cleancat"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="আদরের পোষা বিড়াল পুরোপুরি সুস্থ তো! কীভাবে নিশ্চিত হবেন বিড়ালটি আসলেও ভালো আছে!দেরি হওয়ার আগেই প্রিয় পোষা বিড়াল ভালো আছে কিনা সে বিষয়ে নিশ্চিত হতে কিছু সাধারণ লক্ষণ সম্বন্ধে জেনে রাখা উচিত। এই লক্ষণগুলো দেখলেই বুঝে নিতে হবে ভালো নেই আদরের প্রাণীটি।\n\n
+"
+                />
+
+
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="	খাবারের রুচিতে পরিবর্তন : আপনার বিড়াল কি অনেক বেশি খাচ্ছে? নাকি একেবারে খাচ্ছেই না? খাবারের রুচিতে পরিবর্তন হতে পারে অনেক ধরনের রোগের অন্যতম কারণ।\n\n
+	মুখে দুর্গন্ধ : প্রিয় বিড়ালের মুখের কাছে গেলেই দুর্গন্ধ পাচ্ছেন! হতে পারে বিড়ালটির মাড়ি ক্ষয় হচ্ছে। মাড়ি ক্ষয় হলে অনেক ক্ষেত্রে দাঁত পড়ে যাওয়ার সম্ভাবনা থাকে। এছাড়া বিড়ালের কিডনির সমস্যার হলেও মুখে দুর্গন্ধ হতে পারে।\n\n
+	যেখানে সেখানে পায়খানা-প্রস্রাব করা : বিড়ালকে ‘পটি ট্রেইন’ করানো হয়েছে, দীর্ঘদিন ধরে অভ্যাসমত বিড়ালটি নির্দিষ্ট স্থানেই পায়খানা-প্রস্রাব করেছে। কিন্তু হঠাৎ করেই সে ঘর নোংরা করা শুরু করেছে! এটি হতে পারে মূত্রনালির কোনো রোগের লক্ষণ। আবার ঘন ঘন লিটার বক্স (বিড়ালের পায়খানা করার বাক্স) ব্যবহার করাও স্বাভাবিক নয়।\n\n
+	ওজন কমে যাওয়া : বিড়ালকে কোলে নিয়ে হঠাৎ মনে হতেই পারে যে এর ওজন অনেকটাই কমে গেছে। এক্ষেত্রে দেরি না করে চিকিৎসকের শরণাপন্ন হন। কারণ থাইরয়েড রোগ এমনকি ক্যান্সারের কারণেও ওজন কমে যেতে পারে।\n\n
+	লোম পরিষ্কার না করা : বিড়াল এবং বিড়ালজাতীয় প্রাণীরা নিজেদের শরীর চেটে চেটে পরিষ্কার করে থাকে। প্রায় প্রতিদিনই এই কাজটি করতে দেখা যায় বিড়ালকে। তবে যদি আপনার বিড়াল কোনো কারণে নিজের শরীর পরিষ্কার করা বন্ধ করে দেয় তাহলে তা স্বাভাবিক নয়। এক্ষেত্রে বিড়ালের গায়ে পোকা আছে কিনা সেদিকে খেয়াল রাখতে হবে। অনেক সময় খোসপাঁচড়ার কারণেও এই লক্ষণ দেখা দিতে পারে।\n\n
+	আচরণে পরিবর্তন : হঠাৎ করেই বিড়ালের আচরণে বেশ কয়েকদিন ধরে যদি পরিবর্তন চোখে পড়ে তাহলে বুঝতে হবে কোনো ধরনের সমস্যায় আছে প্রাণীটি।\n\n
+	বেশি ঘুম বা কম ঘুম : আপনার বিড়াল কি অতিরিক্ত ঘুমাচ্ছে? কিংবা স্বাভাবিকের চাইতে অনেক কম ঘুমাচ্ছে? দুটো লক্ষণই নির্দেশ করে কোনো ধরনের অসুস্থতার।\n\n
+	মানসিক চাপ : অনেক সময় পরিচিত পরিবেশ বদলে গেলে তা বিড়ালের উপর মানসিক চাপের সৃষ্টি করে। নতুন কারও বাড়িতে যাওয়া, কিংবা পরিবারে নতুন কোনো পোষা প্রাণীর আগমন হতে পারে বিড়ালের মানসিক চাপের কারণ। এক্ষেত্রে বিড়ালটির মধ্যে লুকিয়ে থাকার প্রবণতা, খাবারে অরুচি ইত্যাদি লক্ষণ দেখা দিতে পারে।\n\n
+	কাজকর্মে পরিবর্তন : আপনার বিড়াল কি খেলাধুলায় আগ্রহী?  মধ্যবয়সী বিড়ালদের মধ্যে এ ধরনের অস্বাভাবিক আগ্রহ নির্দেশ করে থাইরয়েড রোগের। আবার যদি দেখা যায় আগের মতো খেলাধুলা করতে চাচ্ছে না আপনার বিড়াল, তা হতে পারে আরথ্রাইটিসের কারণ।\n\n
+	গলার স্বরে পরিবর্তন : সব বিড়ালই ‘ম্যাও’ বলে ডাকে। তবে একজন পোষা বিড়ালের মালিক একটু হলেও জানেন তার বিড়ালের ভাষা। আদর করার সময় যদি বুঝতে পারেন আপনার বিড়ালের গলার স্বরে কোনো ধরনের পরিবর্তন হয়েছে, কিংবা বিড়ালটি একেবারেই চুপচাপ থাকছে, তবে দেরি না করে হাসপাতালে নিয়ে যাওয়াই ভালো।\n\n
+\n\n
+"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

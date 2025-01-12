@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Projonon"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#FF9800"
+        >
+
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <ImageView
+
+                android:id="@+id/shoplink"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_margin="4dp"
+                android:layout_weight="0.6"
+                android:src="@drawable/back"
+                android:backgroundTint="@color/light_blue_600"
+                android:padding="2dp"
+                android:text="CLICK HERE"
+                android:textColor="#ffffff" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="বিড়ালের প্রজনন"
+                android:textColor="#332B2B"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#ffffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/gosol"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cleancat"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+
+বিড়ালের প্রজনন: বিড়ালের সঙ্গম সম্পর্কে সব\n\n
+বিড়ালের প্রজনন বয়berসন্ধিতে শুরু হয়। আপনি যদি আপনার বিড়ালকে সঙ্গম করতে চান, তাহলে তার প্রজনন চক্র কিভাবে কাজ করে তা জানা প্রয়োজন। পৃথক ভিন্নতা ছাড়াও, বিড়ালের জাতের উপর নির্ভর করে উল্লেখযোগ্য পার্থক্য রয়েছে। যাই হোক না কেন, আপনার পশুচিকিত্সকের সাথে দেখা করা অপরিহার্য যাতে তিনি আপনাকে আপনার পশুর উপর ভিত্তি করে ব্যক্তিগত পরামর্শ দিতে পারেন।\n\n\n
+
+বিড়ালের বয়BERসন্ধি\n\n
+বয়berসন্ধি সেই সময়ের সাথে মিলে যায় যেখান থেকে বিড়াল, পুরুষ বা মহিলা প্রজনন করতে সক্ষম হবে। বিড়ালের মধ্যে, প্রথম তাপ দেখা দিতে শুরু করবে। সাধারণত, বয়berসন্ধি 6 থেকে 9 মাস বয়সের মধ্যে ঘটে। এটির উপস্থিতি কেবল বিড়ালের জাতের উপর নির্ভর করে না বরং বছরের জন্মের সময়ও নির্ভর করে। \n\n
+
+
+
+প্রকৃতপক্ষে, অর্ধ লম্বা থেকে লম্বা কেশিক বিড়ালের মধ্যে, বয়berসন্ধিকাল সাধারণত পরে দেখা যায়। এছাড়াও, বসন্ত বা শরতে জন্ম নেওয়া একটি বিড়ালের পরবর্তী শীত / বসন্তে তার প্রথম তাপ থাকবে। বয়berসন্ধি শুরুর বয়স তাই খুব পরিবর্তনশীল এবং 4 থেকে 12 মাস বা তারও বেশি হতে পারে।\n\n\n
+
+বিড়ালের মধ্যে ইস্ট্রাস চক্র\n\n
+যদি আপনি আপনার বেড়ালকে সঙ্গী করতে চান তবে বছরের সময়টি অবশ্যই বিবেচনায় নেওয়া উচিত। প্রকৃতপক্ষে, বিড়াল এমন একটি প্রজাতি যার যৌন চক্র দিনের আলোর সময়কালের উপর নির্ভর করে। এটিকে দীর্ঘ দিন বলা হয়, এর মানে হল যে উত্তর গোলার্ধের দেশগুলিতে এর প্রজনন মৌসুম সাধারণত ফেব্রুয়ারি থেকে সেপ্টেম্বর / অক্টোবর পর্যন্ত হয়, মাসগুলি যখন দিনগুলি দীর্ঘতম হয়। বিশেষ ক্ষেত্রে ছাড়া শীতকালে সঙ্গমের কোন সম্ভাবনা থাকে না। এই সময়কালকে শীতকালীন এনেস্ট্রাস বলা হয়। লক্ষ্য করুন যে কখনও কখনও কিছু বিড়াল যারা একটি অ্যাপার্টমেন্টে থাকে তারা সারা বছর গরম থাকতে পারে।\n\n\n
+
+            এটি মনে রাখাও গুরুত্বপূর্ণ যে কিছু প্রজাতির তাদের প্রজনন seasonতুতে পর্যায়ক্রমে অ্যানেসট্রাস থাকে। এটি এমন সময়কাল যেখানে মিলন অসম্ভব যদিও এটি দীর্ঘ দিন। উদাহরণস্বরূপ, মাঝারি থেকে লম্বা চুলের বিড়ালের কিছু প্রজাতির ক্ষেত্রে, যা এপ্রিল / মে এবং জুলাই / আগস্টে অ্যানেস্ট্রাস থাকে। যদি আপনার একটি খাঁটি জাতের বিড়াল থাকে, তাহলে সঙ্গমের জন্য উত্তাপের সময়কাল জানার জন্য এর বৈশিষ্ট্যগুলি সম্পর্কে জানা খুবই গুরুত্বপূর্ণ।\n\n\n
+
+
+
+            বিড়ালের মধ্যে তাপ 2 টি পর্যায়ে বিভক্ত: \n\n
+
+            proestrus;\n\n
+            ইস্ট্রাস \n\n
+            মনে রাখবেন যে দুশ্চরিত্রের মতো রক্ত প্রবাহ নেই। প্রোস্ট্রাস প্রায় 12 থেকে 48 ঘন্টার সময়সীমার সাথে মিলে যায়, যার সময় বিড়ালের আচরণ ইস্ট্রাসের অনুরূপ কিন্তু বিড়াল সঙ্গম করতে অস্বীকার করে। তারপর এস্ট্রাস আসে, প্রায় 7 থেকে 8 দিন স্থায়ী হয়, এছাড়াও বংশের উপর নির্ভর করে কমবেশি দীর্ঘ।\n\n
+
+            উদাহরণস্বরূপ, সিয়ামীদের দীর্ঘ এস্ট্রাস (প্রায় 12 দিন) থাকে যখন এটি পার্সিয়ানদের (প্রায় 6 দিন) কম হয়। এস্ট্রাস মিলনের সময় সম্ভব। বিড়ালের আচরণ একটি বৈশিষ্ট্যপূর্ণ পদ্ধতিতে ঘষাঘষির মাধ্যমে প্রকাশ পায়, ঘর্ষণ কিন্তু পিছনের দিকের উচ্চতাও। যদি কোন অভিক্ষেপ না থাকে, প্রজনন duringতুতে তাপ একে অপরকে অনুসরণ করে। একটি বিড়াল জাতের উপর নির্ভর করে 1 থেকে 2 টির মধ্যে 3 সপ্তাহে গড় গরম থাকে। এই উদাহরণটি সিয়ামিজের ক্ষেত্রে, 1 টির মধ্যে 2 সপ্তাহের তাপের ক্ষেত্রে।\n\n
+
+            বিড়ালের প্রতিটি জাতের বিশেষত্ব সম্পর্কে আরও তথ্যের জন্য, LOOF ওয়েবসাইট (অফিসিয়াল বুক অফ ফ্লাইন অরিজিনস) দেখুন https://www.loof.asso.fr অথবা ব্রিড ক্লাবগুলির সাথে যোগাযোগ করুন।\n\n
+
+            বিড়ালের মধ্যে সঙ্গম\n\n
+            এটি কোটাস যা বিড়ালের ডিম্বস্ফোটনকে ট্রিগার করবে। সঙ্গম ছাড়া, মহিলা ডিম্বস্ফোটন করবে না, অর্থাৎ, তার oocytes ছেড়ে। তবুও, ডিম্বস্ফোটন ট্রিগার করার জন্য বেশ কয়েকটি অনুমান প্রয়োজন, গড়ে 3 থেকে 4 টি পরপর। তাই বেশ কয়েক ঘণ্টার জন্য পুরুষ এবং মহিলা একসাথে রেখে দেওয়া গুরুত্বপূর্ণ যাতে বেশ কয়েকটি অনুমান থাকে। অন্যদিকে, বিরল ক্ষেত্রে, স্বতaneস্ফূর্ত ডিম্বস্ফোটন ঘটতে পারে, অর্থাৎ কোটাস ছাড়া। ক্যাটরিতে বসবাসকারী কিছু বয়স্ক মহিলাদের ক্ষেত্রে এটি কখনও কখনও ঘটে।\n\n
+
+            একইভাবে, ডিম্বস্ফোটন মানে পদ্ধতিগত নিষেক নয়। যদি গর্ভাধান ঘটে থাকে, তাহলে গর্ভকালীন সময় শুরু হয়। অন্যথায়, সিউডোগেস্টেশনের একটি পর্ব ঘটে। ডিম্বস্ফোটন হয়েছিল কিন্তু নিষেক হয়নি। এই পর্বটি প্রায় এক মাস স্থায়ী হয় যার পরে তাপ ফিরে পাওয়া সম্ভব।\n\n
+
+
+
+            অবশেষে, যেহেতু ডিম্বস্ফোটনের জন্য বেশ কয়েকটি মিলনের প্রয়োজন হয়, যদি বেশ কয়েকটি পুরুষ বিড়ালের সাথে সঙ্গম করে তবে এটি সম্ভব যে লিটারের বিড়ালের বাচ্চাদের আলাদা বাবা আছে।\n\n
+
+            আপনি যদি আপনার বিড়াল, পুরুষ বা মহিলা প্রজনন করার সিদ্ধান্ত নেন, তাহলে আপনার পশুচিকিত্সকের সাথে এটি আগে থেকেই আলোচনা করা গুরুত্বপূর্ণ যাতে সে আপনার পশু পরীক্ষা করে এবং আপনাকে অনুসরণ করার পদ্ধতি সম্পর্কে নির্দেশনা দিতে পারে। এটা সত্যিই গুরুত্বপূর্ণ যে আপনার বিড়াল সুস্থ আছে। উপরন্তু, এটি মনে রাখা উচিত যে, বিড়ালের মধ্যে, যৌন সংক্রামিত রোগ বিদ্যমান। অবশেষে, কিছু প্রজাতিতে, বংশগত রোগ ভবিষ্যতে বিড়ালছানাগুলিতেও প্রেরণ করা যেতে পারে।\n\n\n
+
+            বয়স্ক বিড়ালের মধ্যে প্রজনন\n\n
+            উল্লেখ্য, প্রায় 7 বছর বয়স থেকে বিড়ালের আরও বেশি অনিয়মিত চক্র থাকে। বিড়ালের কোন মেনোপজ নেই, এমনকি দুশ্চরিত্রাতেও, তাপটি তার জীবনের শেষ অবধি থাকবে কিন্তু আরও অনিয়মিত পদ্ধতিতে। মিলন এখনও সম্ভব কিন্তু লিটারের আকার কমানো যেতে পারে। উপরন্তু, গর্ভধারণ সম্পর্কিত কিছু সমস্যা বেশি ঘন ঘন হয় যেমন গর্ভপাত বা ডাইস্টোসিয়া (কঠিন প্রসব)।\n\n\n\n
+
+
+
+
+            "
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

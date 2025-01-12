@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Catflu"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#FF9800"
+        >
+
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <ImageView
+
+                android:id="@+id/shoplink"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_margin="4dp"
+                android:layout_weight="0.6"
+                android:src="@drawable/back"
+                android:backgroundTint="@color/light_blue_600"
+                android:padding="2dp"
+                android:text="CLICK HERE"
+                android:textColor="#ffffff" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="CATFLUE"
+                android:textColor="#332B2B"
+                android:textSize="27dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#ffffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/gosol"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cleancat"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+Feline Herpes Virus-1 (FHV-1) এর কারনে হওয়া Cat Flu এর লক্ষনসমুহ :\n\n
+১) বিড়ালের চোখের ঝিল্লিতে এই ভাইরাস আক্রমন করে। চোখ সাদা, স্ফিত এবং লাল হয়ে যায় এবং চোখে পুঁজ জমে। মাঝেমাঝে এর ফলে কর্নিয়াতে আলসার হয়।\n\n
+২) Cat Flu বিড়ালের ঘ্রানশক্তি কমিয়ে দেয়। ঘন ঘন হাঁচি দেওয়া এর প্রধান লক্ষন। নাক দিয়ে তরল পানির মত পদার্থ বের হয় এবং সময়ের সাথে সাথে তা ঘন ও সবুজ রঙ ধারন করে।\n\n
+৩) বিড়ালের স্বাভাবিক তাপমাত্রা 100.4º to 102.5º ফারেনহাইট। জ্বর হলে এ তাপমাত্রা অনেক বেড়ে যায়। বিড়াল খাওয়াদাওয়া বন্ধ করে দেয়।অনেক সময় পানিশূন্য হয়ে পড়ে পর্যাপ্ত পানি না খাওয়ার কারনে।\n\n
+৪) Pregnant বিড়ালের বাচ্চা নষ্ট হয়ে যেতে পারে । আর বাচ্চা হয়ে গেলে মা বিড়ালের থেকে বাচ্চাদের হওয়ার আশংকা থাকে।\n\n
+
+"
+                />
+
+
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feline Calicivirus (FCV) এর কারনে হওয়া Cat Flu এর লক্ষনসমুহ :\n
+
+১) বিড়ালের মুখ, জিহবা, ঠোট, নাকের ডগায় ক্ষত বা ঘা হয়ে যায়। দাঁতের মাড়িতেও ঘা হয় Cat Flu এর কারনে। অনেক সময় লালা পড়ে।\n
+
+২) বিড়ালের ঠাণ্ডা লেগে নাক দিয়ে, চোখ দিয়ে পানি ঝরতে থাকে।\n
+
+৩) বিড়ালের জ্বর থাকতে পারে আবার নাও থাকতে পারে। কিন্তু সে কিছু খেতে পারবে না মুখের ঘায়ের কারনে। খাওয়ার সময় ব্যথা পাওয়ার কারনে বিড়াল কিছু খেতে চায় না। সময়ের সাথে সাথে এটা অনেক বাড়তে থাকে।\n
+
+৪) হাড়ের জোড়ায় ব্যথার কারনে বিড়াল খোঁড়াতে থাকে। প্রথমে সামনের এক পা, পরে দুই পা দিয়ে হাঁটতে পারে না। paw বা পায়ের তালুতে ঘা সৃষ্টি হয়।\n\n
+
+"
+                />
+
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cat Flu এর চিকিৎসা :\n
+Cat flu এর তেমন কোন চিকিৎসা নেই। শুধুমাত্র সঠিক সময়ে প্রতিষেধক টিকা(vaccine) দেওয়ার মাধ্যমে এর থেকে রক্ষা পাওয়া যায়। বাংলাদেশের প্রায় সব Vet রা এই টিকা দিয়ে থাকেন। আমাদের Vet Finder থেকে আপনার নিকটস্থ  Vet এর  ঠিকানা খুঁজে  টিকা দেওয়ার জন্য নিয়ে যেতে পারেন।  তাই তিনমাস বয়সের পরে অবশ্যই বিড়ালকে টিকা দিতে হবে। তবে এই লক্ষণগুলো দেখলে অবশ্যই ডাক্তারের কাছে নিয়ে গিয়ে অ্যান্টিবায়োটিক খাওয়াতে হবে। এ রোগে অনেক বিড়াল মারা যায়। আবার অনেকক্ষেত্রে বিড়াল নিজে নিজেই সুস্থ হয়ে যায়।\n
+
+Cat Flu তে আক্রান্ত বিড়ালের যত্ন :\n
+শীতকালে এ রোগ অনেক বেশি হয়। এ সময় বিড়ালকে ঠাণ্ডা পানিতে গোসল করানো যাবে না। এ রোগে আক্রান্ত হলে বিড়ালের অনেক যত্ন নিতে হবে এবং পর্যাপ্ত বিশ্রামে রাখতে হবে। তাকে ঠাণ্ডা থেকে দূরে গরম কোনও স্থানে রাখতে হবে। গরমকাপড় অথবা কম্বল দিয়ে ঢেকে রাখতে হবে। উষ্ণগরম খাবার, মুরগির স্যুপ, স্যালাইন, গ্লুকোজ, পানি ইত্যাদি খাওয়াতে হবে। এসময় বিড়াল খেতে চাইবে না কিন্তু অল্প অল্প করে খাওয়াতে হবে যাতে সে পানিশূন্য এবং দুর্বল না হয়ে পরে। ডাক্তারের পরামর্শ অনুযায়ী সময়মত ওষুধ খাওয়াতে হবে এবং ডাক্তারের সাথে নিয়মিত যোগাযোগ রাখতে হবে।\n
+বাড়িতে অন্য বিড়াল থাকলে অবশ্যই তাকে আলাদা করে অন্যস্থানে রাখার ব্যবস্থা করতে হবে কারন এটি সংক্রামক রোগ। Cat Flu এর ভাইরাস অসুস্থ বিড়ালের লালা ও হাঁচির মাধ্যমে ছড়ায়। তাই Litter box এবং খাবারের বাটি আলাদা করে দিতে হবে। অন্য বিড়ালের মধ্যে যাতে Cat Flu না ছড়ায় তাই অসুস্থ বিড়ালকে ধরে দুহাত ডেটল বা স্যাভলন দিয়ে ধুতে হবে।\n
+
+প্রতিবছর Cat Flu তে আক্রান্ত হয়ে অনেক বিড়াল মারা যায়। তাই আপনার আদরের বিড়ালটিকে নিয়মিত যত্ন নিয়ে এবং টিকা দিয়ে সবধরনের রোগ থেকে দূরে রাখুন।\n\n
+
+"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

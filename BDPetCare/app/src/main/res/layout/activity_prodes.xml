@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Prodes"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:background="#FF9800"
+                >
+
+
+                <LinearLayout
+                    android:layout_marginTop="25dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                    <ImageView
+
+                        android:id="@+id/shoplink2"
+                        android:layout_width="10dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="4dp"
+                        android:layout_weight="0.6"
+                        android:src="@drawable/back"
+                        android:backgroundTint="@color/light_blue_600"
+                        android:padding="2dp"
+                        android:text="CLICK HERE"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="CAT GOODS"
+                        android:textColor="#332B2B"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="#ffffff"
+                    />
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/firstr"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#ffffff"
+                >
+
+                <ImageView
+                    android:id="@+id/cimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/catcare" />
+
+
+
+
+            </RelativeLayout>
+
+
+            <ScrollView
+                android:id="@+id/scrl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cimage"
+                android:layout_alignParentBottom="true"
+                android:background="#16FDFCFC">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="#ffffff"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/branddes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight=".4"
+                        android:background="#DEDDD4"
+                        android:gravity="center"
+                        android:text="Aquaforest AF Power Elixir"
+                        android:textAlignment="center"
+                        android:textColor="#0C0C0C"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/offer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.6"
+                        android:background="#FF9800"
+                        android:padding="10dp"
+                        android:text="15%off"
+
+                        android:textAlignment="center"
+                        android:textColor="#BF170B"
+
+                        android:textSize="17dp" />
+
+
+                </LinearLayout>
+
+
+            </ScrollView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#FFEB3B"
+                />
+
+
+
+            <TextView
+                android:layout_margin="5dp"
+                android:textColor="#332B2B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1---আপনাদের সুবিধার্থে অনেক পেইজ থেকে প্রোডাক্ট এর লিংক কালেক্ট করে উপস্থাপন করা হয়েছে। আমরা সরাসরি   এই মুহুর্তে কেনা-বেচার সাথে যুক্ত নই।  শীঘ্রই এই সুবিধা নিয়ে আমরা হাজির হবো৷
+\n\n
+2---যদি প্রডাক্টি কিনতে চান তাহলে click here এ ক্লিক করুন। প্রডাক্ট পেইজ থেকে কথা বলে কিনে নিন। প্রডাক্টের অথেনটিসিটি কোন ভাবেই  আমার এপ দায়ী নয়।  প্রডাক্টটি আমরা সরাসরি সরবারাহ করি না। ধন্যবাদ\n\n"
+                android:textSize="17dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                />
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFC107"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="DO YOU WANT TO BUY :"
+                    android:textColor="#332B2B"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/shoplink"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/light_blue_600"
+                    android:padding="2dp"
+                    android:text="CLICK HERE"
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F5F2EB"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/stock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="DO YOU WANT TO BUY :"
+                    android:textColor="#332B2B"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="DO YOU WANT TO BUY :"
+                    android:textColor="#332B2B"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

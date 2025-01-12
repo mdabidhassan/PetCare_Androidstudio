@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Docprodes"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="20dp"
+    android:layout_marginBottom="40dp"
+    >
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff"
+
+        >
+
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:layout_weight="0.6"
+            android:src="@drawable/back"
+            android:backgroundTint="@color/light_blue_600"
+            android:padding="2dp"
+            android:text="CLICK HERE"
+            android:textColor="#ffffff" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="ডাক্তারের তথ্যসমূহ"
+            android:textColor="#332B2B"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_gravity="center"
+
+            android:id="@+id/docimage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/best" />
+
+
+
+<TextView
+    android:id="@+id/docname"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:text="Fahad rahaman molla"
+    android:textStyle="normal"
+    android:textSize="20dp"
+    android:textColor="#2F2D2D"
+    />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="start"
+        android:text="Doctor Details"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/docdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="start"
+        android:text="সাধারণ পদবী:ভেটেরিনারি ডাক্তার\n
+বিভাগ:ভেটেরিনারি সায়েন্স\n
+প্রতিষ্ঠান:সরকারি সামরিক বেসরকারি প্রাইভেট প্র্যাক্টিস\n
+
+
+অভিজ্ঞতা সীমা:কাজ ও প্রতিষ্ঠানসাপেক্ষ\n
+
+মূল স্কিল:ভেটেরিনারি সার্জারি, ভেটেরিনারি মেডিসিন\n
+বিশেষ স্কিল:জরুরি অবস্থা সামাল দেয়ার দক্ষতা\n
+"
+        android:textStyle="normal"
+        android:textSize="17dp"
+        android:textColor="#949191"
+        />
+
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Payment Details"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    />
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/branddes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".4"
+            android:gravity="center"
+            android:text="কনসাল্টেশন ফি(ভ্যাট সহ)"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#949191"
+          />
+
+        <TextView
+            android:id="@+id/docfee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.6"
+            android:background="#FF9800"
+            android:text="50tk"
+
+            android:textAlignment="center"
+            android:textColor="#BF170B"
+
+            android:textSize="17dp" />
+
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="কনসাল্ট নেওয়ার জন্য নিচের তথ্য লক্ষ করুন:"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+    <TextView
+        android:background="#03A9F4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="start"
+        android:text="১--সেবা পাওয়ার জন্য অবশ্যই জুম এপ  ডাউনলোড করা থাকতে হবে। \n\n
+
+2--প্রথমে আপনি এই ডক্টরের পেইজের একটি স্ক্রিনশর্ট নিন। \n\n
+3---ডাক্তার এর সাথে আ্যপ থেকে সরাসরি যোগাযোগের জন্য CLICK HERE চাপুন। \n\n
+
+এটি আপনাকে পেট কেয়ার পেইজ এ নিয়ে যাবে।  পেট কেয়ার পেইজ এর ইনবক্সে ম্যাসেজ করুন স্ক্রিনশট টি জামা দিন।   পরবর্তী পদক্ষেপ এর জন্য তারা আপনাকে সাহায্য করবে। আপনার ম্যাসেজটি দেখা মাত্র কিছুক্ষণের মধ্যেই যোগাযোগ করবে। ধন্যবাদ।
+
+"
+        android:textStyle="normal"
+        android:textSize="17dp"
+        android:textColor="#363636"
+        />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="আপনি কি তার পরামর্শ নিতে চান?"
+            android:textSize="17sp"
+            android:textColor="#949191"
+            />
+
+        <Button
+            android:layout_marginBottom="90dp"
+            android:id="@+id/doclink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/light_blue_600"
+            android:padding="2dp"
+            android:text="CLICK HERE"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

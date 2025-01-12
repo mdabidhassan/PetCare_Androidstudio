@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".goromejotno"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#FF9800"
+        >
+        <LinearLayout
+            android:layout_marginTop="25dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <ImageView
+
+                android:id="@+id/shoplink"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_margin="4dp"
+                android:layout_weight="0.6"
+                android:src="@drawable/back"
+                android:backgroundTint="@color/light_blue_600"
+                android:padding="2dp"
+                android:text="CLICK HERE"
+                android:textColor="#ffffff" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="গরমে বিড়ালের যত্ন"
+                android:textColor="#332B2B"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#ffffff"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/gosol"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cleancat"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+গরমে বিড়ালের যত্ন\n\n
+
+বিড়ালের গায়ে অনেক লোম থাকায় গরমকালে বিড়ালের নানা ধরনের অসুবিধা হয়। এসময় হিটস্ট্রোক, ডায়রিয়া, পানিশূন্যতা ইত্যাদি বেশি হয়ে থাকে। আর তাই এ সময় বিড়ালের বাড়তি যত্নের প্রয়োজন হয়।\n\n
+•	ঘুমানোর জায়গাঃ একটা তোয়ালে ফ্রিজে রাখুন, ঠাণ্ডা হলে বিড়ালের বিছানায় বিছিয়ে দিন। ঘর ঠাণ্ডা রাখার জন্য এয়ারকন্ডিশন, কুলার, ফ্যান ইত্যাদি চালান এবং বিড়ালকে সে ঘরে রাখুন। যদি উঁচু বিল্ডিং এ বসবাস করেন তাহলে জানালা খুলে বাতাস চলাচলের ব্যবস্থা করতে হবে। তবে অবশ্যই জানালায় নেট লাগিয়ে নিতে হবে।\n\n
+•	খাওয়ার পানিঃ সবসময় পরিষ্কার এবং ঠাণ্ডা পানি বিড়ালের খাওয়ার জন্য রেখে দিতে হবে। বিড়ালের খাবারের পানিতে বরফের টুকরো মিশিয়ে দিন। এতে পানি বেশিক্ষণ ঠাণ্ডা থাকবে।\n\n
+•	খেলাধুলাঃ এসময় বিড়ালকে খেলাধুলা কম করাতে হবে। উত্তেজিত হয়ে যায় এমন কোন খেলাধূলা করানো যাবে না।cat-care-in-summer2 \n\n
+•	বিশ্রামঃ বেশিরভাগ সময় বিড়ালকে বিশ্রামে রাখুন। যদি নিয়মিত বাইরে হাঁটতে নিয়ে যান, তাহলে দীর্ঘসময় না হেঁটে কম সময় হাঁটবেন।\n\n
+•	সূর্যের তাপঃ বিড়ালকে সূর্যের তাপ থেকে দূরে রাখতে হবে। তাই বেশিরভাগ সময় বিড়ালকে ঘরে রাখতে হবে।\n\n
+•	Fleas এবং Ticks মুক্ত রাখাঃ  বিড়ালকে নিয়মিত grooming করতে হবে যাতে Fleas এবং Ticks এর আক্রমন থেকে বাঁচানো যায়। এদের কামড়ে জ্বলুনি এবং চামড়ার রোগ হয়।\n\n
+•	বয়স্ক এবং স্থূলকায় বিড়ালঃ বয়স্ক এবং স্থূলকায় বিড়ালের হিটস্ট্রোকের ঝুঁকি বেশি থাকে। সুতরাং এদের প্রতি বিশেষ যত্ন নেওয়া প্রয়োজন।\n\n
+•	গরমে হটাৎ অসুস্থ হয়ে গেলেঃ একটি তোয়ালে ঠাণ্ডা পানিতে ভিজিয়ে বিড়ালের শরীর ও মাথা মুছে দিতে হবে। যদিও বিড়াল এটা পছন্দ করে না। তবে এটি বিড়ালকে দ্রুত ঠাণ্ডা করতে পারবে। পর্যাপ্ত পরিমানে পানি খেতে দিন এবং দ্রুত Vet এর সাথে যোগাযোগ করুন।\n\n\n
+
+"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sitejotno"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    >
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#FF9800"
+        >
+        <LinearLayout
+            android:layout_marginTop="25dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <ImageView
+
+                android:id="@+id/shoplink"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_margin="4dp"
+                android:layout_weight="0.6"
+                android:src="@drawable/back"
+                android:backgroundTint="@color/light_blue_600"
+                android:padding="2dp"
+                android:text="CLICK HERE"
+                android:textColor="#ffffff" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="শীতে পোষা বিড়ালের যত্ন:"
+                android:textColor="#332B2B"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#ffffff"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/gosol"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cleancat"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#100F0F"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+শীতে পোষা বিড়ালের যত্ন\n\n
+•	বিড়ালছানার বয়স ২ মাস হলেই ভাইরাসের টিকা দিয়ে নিতে হবে। এটা অত্যন্ত জরুরি।\n\n
+•	বিড়ালের বুক মেঝেতে লাগিয়ে শুতে দেওয়া যাবে না, এতে শ্বাসনালিতে সংক্রমণের ঝুঁকি বাড়ে।\n\n
+•	এখন বিড়ালকে হালকা গরম খাবার দিন, খাবার ঠান্ডা হয়ে গেলে তাতে জীবাণু জন্ম নিতে পারে। খাবার বাসি হয়ে গেলে সেই খাবারে যাতে বিড়াল মুখ না দেয়, সেদিকে লক্ষ রাখুন।\n\n
+•	বিড়াল যদি বাইরে যায় তাহলে ফেরার পর কুসুম গরম পানি দিয়ে ভালো করে পা মুছে দিন, যাতে ময়লা বা জীবাণু পায়ে লেগে না থাকে।\n\n
+•	কোনো বিড়াল অসুস্থ হয়ে পড়লে তাকে অবশ্যই সুস্থ বিড়াল থেকে আলাদা রাখুন এবং যত দ্রুত সম্ভব প্রাণী চিকিৎসকের শরণাপন্ন হোন।\n\n
+•	উষ্ণতা ধরে রাখতে পারে, এমন কাপড়ের বিছানা করে দিন বিড়ালের জন্য।\n\n
+•	বেশি শীতে বিড়ালকে গরম কাপড় পরাতে পারেন।\n\n
+•	শীতে বিড়ালের থাবা ঠান্ডা হয়ে যেতে পারে কখনো কখনো। তাই প্রয়োজনে সামান্য নারকেল তেল লাগিয়ে রাখা যায়।\n\n
+•	তাপমাত্রার তারতম্যের কারণে শীতের সময় বিড়ালের খাদ্যগ্রহণের প্রবণতা বেড়ে যায়। তবে খেয়াল রাখতে হবে, অতিরিক্ত ওজন বিড়ালের জন্য ক্ষতিকর। তাই কয়েক দফায় কম করে খাবার দেওয়া যেতে পারে।\n\n
+•	বিড়াল পানি খুব একটা পান করে না। শীতে আরও কম। কিন্তু বিড়ালের শরীরের জন্য পানি আবশ্যক। পানিশূন্যতা বিড়ালের জন্য ক্ষতিকর। বিড়ালের পানিশূন্যতা বুঝতে পারা যায় ছোট্ট একটি পরীক্ষার মাধ্যমে। বিড়ালের দুই কানের মাঝখানের চামড়া সাবধানে টেনে ছেড়ে দিলে যদি তা ২-৩ সেকেন্ডের মধ্যে আগের অবস্থায় ফিরে না যায় (অর্থাৎ মিশে না যায়), তাহলে বোঝা যায় পানিশূন্যতা রয়েছে। পানিশূন্যতা থাকলে খানিকটা পানি পান করিয়ে দিন।\n\n
+•	রোগ প্রতিরোধক্ষমতা বাড়াতে মাঝেমধ্যে ভিটামিন সি-সমৃদ্ধ খাবার যেমন কমলার রস বা লেবুর রস দিতে পারেন। কখনো কখনো টক দইও দিতে পারেন।\n\n
+•	এ সময় বিড়ালকে প্রতি মাসে একবার করে গোসল করাতে পারেন। খুব বেশি প্রয়োজন হলে মাসে দুবার গোসল করাতে পারেন। গোসলের পর অবশ্যই হেয়ার ড্রায়ার দিয়ে কিংবা রোদে শুকিয়ে নিন। বিড়ালের কানে যাতে পানি না ঢোকে, সেদিকে খেয়াল রাখতে হবে।\n\n
+"
+                />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
